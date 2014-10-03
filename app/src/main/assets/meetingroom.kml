@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="meetingroom" id="meetingroom">
+	<SimpleField name="id" type="int"></SimpleField>
+</Schema>
+<Folder><name>meetingroom</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#meetingroom">
+		<SimpleData name="id">11</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.180397415475438,55.936271884695685 -3.180301317451752,55.936288882348549 -3.180242647079396,55.936197661524105 -3.180336721986794,55.936181230421091 -3.180397415475438,55.936271884695685</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

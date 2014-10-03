@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">iBeacon Proto</string>
+    <string name="action_settings">Settings</string>
+    <string name="button">Update The TextView</string>
+    <string name="hint">A Name</string>
+    <string name="activity_details">Map</string>
+    <string-array name="titles" >
+        <item>edina floor plan</item>
+    </string-array>
+    <string-array name="descriptions" >
+        <item>edina floor plan</item>
+    </string-array>
+    <string-array name="routes" >
+        <item>Green</item>
+    </string-array>
+    <string-array name="routes_kml_filenames" >
+        <item>edina_building.kml</item>
+    </string-array>
+
+
+</resources>

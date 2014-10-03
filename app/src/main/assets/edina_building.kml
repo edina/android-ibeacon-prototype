@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="edina_building" id="edina_building">
+	<SimpleField name="id" type="int"></SimpleField>
+</Schema>
+<Folder><name>edina_building</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edina_building">
+		<SimpleData name="id">27279650</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1810085,55.9361585 -3.1805195,55.9362483 -3.1805457,55.936297 -3.1804047,55.9362885 -3.1804097,55.9362986 -3.1802981,55.9362945 -3.1801084,55.9359755 -3.1800954,55.9359536 -3.1802513,55.9359269 -3.1805829,55.9358742 -3.1806528,55.936021 -3.1804113,55.9360649 -3.180447,55.9361241 -3.1809452,55.9360345 -3.1810085,55.9361585</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

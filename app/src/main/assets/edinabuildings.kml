@@ -1,0 +1,1752 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="edinbuildings" id="edinbuildings">
+	<SimpleField name="id" type="string"></SimpleField>
+</Schema>
+<Folder><name>edinbuildings</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">27279645</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1803919,55.9350512 -3.180108,55.9351151 -3.1800321,55.9350079 -3.1799558,55.9349001 -3.1798781,55.9347904 -3.1798019,55.9346828 -3.1797156,55.9345609 -3.1797049,55.9345459 -3.1791268,55.9346767 -3.1786538,55.9341279 -3.1788676,55.9340481 -3.1789752,55.934155 -3.1795754,55.9339238 -3.1798924,55.9343422 -3.1800071,55.9344917 -3.1800937,55.9346176 -3.1801665,55.9347234 -3.1802421,55.9348334 -3.1803165,55.9349415 -3.1803919,55.9350512</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">27279650</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1810085,55.9361585 -3.1805195,55.9362483 -3.1805457,55.936297 -3.1804047,55.9362885 -3.1804097,55.9362986 -3.1802981,55.9362945 -3.1801084,55.9359755 -3.1800954,55.9359536 -3.1802513,55.9359269 -3.1805829,55.9358742 -3.1806528,55.936021 -3.1804113,55.9360649 -3.180447,55.9361241 -3.1809452,55.9360345 -3.1810085,55.9361585</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">27279654</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1789584,55.9348083 -3.1782546,55.9349363 -3.177731,55.9343597 -3.1773574,55.933924 -3.1778057,55.9338017 -3.1779754,55.9337511 -3.1789584,55.9348083</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">27279659</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1802567,55.9368876 -3.1795572,55.936994 -3.1795255,55.936931 -3.1794443,55.9368519 -3.179299,55.9367103 -3.1796452,55.9366611 -3.1795477,55.9364428 -3.1794645,55.936422 -3.1794262,55.9363312 -3.1794733,55.936284 -3.1794578,55.9362516 -3.1799338,55.9361803 -3.1800439,55.936219 -3.1800145,55.9362606 -3.1801144,55.9364808 -3.1801784,55.9365052 -3.1802053,55.936564 -3.1801746,55.936597 -3.1802399,55.9366207 -3.1801951,55.9366652 -3.1802156,55.9367075 -3.1802809,55.9367305 -3.1803251,55.9368286 -3.1802567,55.9368876</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52429618</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1796375,55.9381832 -3.1794794,55.9382282 -3.1794015,55.9381327 -3.1794597,55.9381178 -3.1794867,55.9381109 -3.1795596,55.9380923 -3.1796375,55.9381832</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52429622</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1799634,55.9380964 -3.179791,55.9381435 -3.1797233,55.9380516 -3.1798736,55.9380072 -3.1799061,55.9380155 -3.1799634,55.9380964</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52429623</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1800387,55.9382002 -3.1798327,55.9382487 -3.1798061,55.9381816 -3.1797958,55.9381556 -3.179791,55.9381435 -3.1799634,55.9380964 -3.180005,55.9381538 -3.1800151,55.9381677 -3.1800387,55.9382002</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52429625</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1801263,55.938328 -3.1799198,55.9383768 -3.1798327,55.9382487 -3.1800387,55.9382002 -3.1800821,55.9382636 -3.1800922,55.9382782 -3.1801263,55.938328</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52482726</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1796375,55.9381832 -3.1797752,55.9381476 -3.179791,55.9381435 -3.1797233,55.9380516 -3.1796452,55.938071 -3.1796223,55.9380767 -3.1795596,55.9380923 -3.1796375,55.9381832</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52532375</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1791258,55.9380046 -3.1790454,55.9379023 -3.1791794,55.9378674 -3.1792604,55.9379708 -3.1792064,55.9379844 -3.1791258,55.9380046</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52532376</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1794208,55.9379306 -3.1793457,55.9378307 -3.1795128,55.937789 -3.1795913,55.9378878 -3.1795182,55.9379061 -3.1794208,55.9379306</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52532378</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1795913,55.9378878 -3.1795128,55.937789 -3.1796855,55.9377459 -3.1797637,55.9378445 -3.1796878,55.9378635 -3.1795913,55.9378878</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52532379</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1797637,55.9378445 -3.1796855,55.9377459 -3.1798559,55.9377034 -3.1799348,55.9378015 -3.1798617,55.9378199 -3.1797637,55.9378445</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52532380</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1799348,55.9378015 -3.1798559,55.9377034 -3.1800417,55.937657 -3.1801171,55.9377557 -3.1800275,55.9377782 -3.1799348,55.9378015</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52532381</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1801171,55.9377557 -3.1800417,55.937657 -3.180232,55.9376095 -3.1803006,55.9377097 -3.1802076,55.937733 -3.1801171,55.9377557</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52532382</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1788324,55.9380832 -3.1787788,55.9380214 -3.1787566,55.9380275 -3.1787139,55.9379795 -3.1789325,55.9379237 -3.1789481,55.9379426 -3.1789711,55.937937 -3.1789774,55.9379267 -3.1790005,55.9379134 -3.1790454,55.9379023 -3.1791258,55.9380046 -3.1790451,55.9380247 -3.1790002,55.9380358 -3.179003,55.9380402 -3.1789739,55.9380475 -3.1788324,55.9380832</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52828022</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1792604,55.9379708 -3.1792758,55.937967 -3.1793451,55.9379496 -3.1794208,55.9379306 -3.1793457,55.9378307 -3.1793414,55.9378253 -3.1791794,55.9378674 -3.1792604,55.9379708</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52828427</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1805839,55.9381908 -3.1806513,55.9382897 -3.1804549,55.9383329 -3.1804282,55.9382927 -3.1803885,55.938233 -3.1805839,55.9381908</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52828428</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1806513,55.9382897 -3.1807112,55.9383989 -3.1805099,55.9384331 -3.1804817,55.9383818 -3.1804549,55.9383329 -3.1806513,55.9382897</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52828434</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1802406,55.9380362 -3.1804396,55.9379931 -3.1805134,55.9380934 -3.1803134,55.9381326 -3.1802826,55.9380917 -3.1802406,55.9380362</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52894637</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1791353,55.9384003 -3.1792605,55.9383648 -3.179396,55.9384109 -3.1791927,55.9384652 -3.1791886,55.9384586 -3.179163,55.9384584 -3.1791477,55.9384396 -3.179157,55.9384271 -3.1791353,55.9384003</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52903315</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1792605,55.9383648 -3.1795438,55.9383082 -3.1793158,55.9382611 -3.1792126,55.9382918 -3.1792605,55.9383648</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52903316</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1795438,55.9383082 -3.1796004,55.9383201 -3.1796909,55.9382811 -3.1796375,55.9381832 -3.1794794,55.9382282 -3.1795438,55.9383082</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52903317</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1796909,55.9382811 -3.1797752,55.9381476 -3.179791,55.9381435 -3.1797958,55.9381556 -3.1797191,55.9382811 -3.1797656,55.9383517 -3.1796492,55.9383823 -3.1796004,55.9383201 -3.1796909,55.9382811</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52903320</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1796492,55.9383823 -3.1797656,55.9383517 -3.1797191,55.9382811 -3.1797958,55.9381556 -3.1798061,55.9381816 -3.1798327,55.9382487 -3.1799198,55.9383768 -3.1797376,55.9384408 -3.1796961,55.9384553 -3.1796767,55.9384108 -3.1796492,55.9383823</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52903321</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1793158,55.9382611 -3.1794639,55.9382207 -3.1794794,55.9382282 -3.1795438,55.9383082 -3.1793158,55.9382611</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52903333</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1796767,55.9384108 -3.1796492,55.9383823 -3.1795715,55.9383815 -3.179396,55.9384109 -3.1794491,55.9384693 -3.1796767,55.9384108</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52903341</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1796909,55.9382811 -3.1796375,55.9381832 -3.1797752,55.9381476 -3.1796909,55.9382811</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52917680</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1801263,55.938328 -3.1801578,55.9383219 -3.1801212,55.9382726 -3.1800922,55.9382782 -3.1801263,55.938328</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52917681</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1792416,55.9381742 -3.1791512,55.9381964 -3.1791333,55.9381756 -3.179221,55.9381511 -3.1792416,55.9381742</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52917682</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.180005,55.9381538 -3.1800317,55.9381463 -3.1799892,55.9380891 -3.1799634,55.9380964 -3.180005,55.9381538</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52917683</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1800151,55.9381677 -3.1800445,55.9381591 -3.180064,55.9381972 -3.1800387,55.9382002 -3.1800151,55.9381677</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52917684</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1800387,55.9382002 -3.180064,55.9381972 -3.1801074,55.9382591 -3.1800821,55.9382636 -3.1800387,55.9382002</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52917685</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1797233,55.9380516 -3.1797073,55.9380253 -3.1796222,55.9380491 -3.1796452,55.938071 -3.1797233,55.9380516</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52917686</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1796223,55.9380767 -3.179601,55.9380551 -3.1795438,55.93807 -3.1795596,55.9380923 -3.1796223,55.9380767</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52917687</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1795596,55.9380923 -3.1794867,55.9381109 -3.1794641,55.9380901 -3.1795438,55.93807 -3.1795596,55.9380923</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52917688</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1794597,55.9381178 -3.1794402,55.9380923 -3.1793751,55.9381116 -3.1794015,55.9381327 -3.1794597,55.9381178</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52917689</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1794015,55.9381327 -3.179344,55.9381476 -3.1793286,55.9381243 -3.1793751,55.9381116 -3.1794015,55.9381327</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52917690</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1793252,55.9381525 -3.1792416,55.9381742 -3.179221,55.9381511 -3.1793073,55.9381288 -3.1793252,55.9381525</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52917691</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1801685,55.9383929 -3.180201,55.9383833 -3.1801578,55.9383219 -3.1801263,55.938328 -3.1801685,55.9383929</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52917692</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1802286,55.9384956 -3.1802641,55.9384875 -3.1802408,55.9384559 -3.1802105,55.9384576 -3.1802286,55.9384956</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">52917693</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1801806,55.9384115 -3.1802159,55.9384001 -3.1802408,55.9384559 -3.1802105,55.9384576 -3.1801806,55.9384115</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">53124930</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1810171,55.9382554 -3.1812105,55.9382125 -3.1811932,55.9381887 -3.1811526,55.9381325 -3.1809592,55.9381758 -3.1810171,55.9382554</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">53124931</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1809592,55.9381758 -3.1809016,55.9380965 -3.1810964,55.9380534 -3.1811361,55.9381092 -3.1811526,55.9381325 -3.1809592,55.9381758</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">53124932</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1809016,55.9380965 -3.1808429,55.9380158 -3.1810387,55.9379724 -3.1810784,55.9380281 -3.1810964,55.9380534 -3.1809016,55.9380965</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">53124933</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1808429,55.9380158 -3.1807843,55.9379346 -3.1809601,55.9378963 -3.1809803,55.9378919 -3.1810186,55.9379448 -3.1810387,55.9379724 -3.1808429,55.9380158</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">53124935</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1812124,55.9378748 -3.1812337,55.9379041 -3.1812677,55.9379509 -3.181392,55.9379364 -3.1814193,55.9379332 -3.1813419,55.9378412 -3.1813214,55.9378439 -3.1812235,55.9378633 -3.1812361,55.9378722 -3.1812124,55.9378748</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">53124936</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1812677,55.9379509 -3.1813167,55.9380102 -3.1814114,55.9380004 -3.181392,55.9379364 -3.1812677,55.9379509</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">53124937</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1814114,55.9380004 -3.1815299,55.937988 -3.1815109,55.9379252 -3.1814193,55.9379332 -3.181392,55.9379364 -3.1814114,55.9380004</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">53124939</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1813246,55.9380261 -3.1813735,55.9380942 -3.1815504,55.9380721 -3.1815062,55.9380057 -3.1814588,55.9380093 -3.1814493,55.9380208 -3.1814351,55.938011 -3.1813246,55.9380261</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">54388525</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1823718,55.9360289 -3.1822223,55.9360553 -3.1822035,55.9360244 -3.1821822,55.9359896 -3.1822303,55.9359823 -3.1822223,55.9359682 -3.1822885,55.9359558 -3.1822956,55.9359705 -3.1823357,55.9359626 -3.1823718,55.9360289</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">54388526</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1821712,55.9359637 -3.1823297,55.9359311 -3.1822875,55.9358648 -3.1822484,55.9358738 -3.1822404,55.9358614 -3.1821541,55.9358755 -3.1821641,55.9358873 -3.182122,55.9358963 -3.1821353,55.9359145 -3.1821491,55.9359334 -3.1821371,55.9359407 -3.1821441,55.9359536 -3.1821661,55.9359558 -3.1821712,55.9359637</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">54388527</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1821541,55.9358755 -3.1821299,55.9358266 -3.1821008,55.9358316 -3.1820806,55.9357971 -3.1820436,55.9357339 -3.1821053,55.935723 -3.182181,55.9357097 -3.1822001,55.9357457 -3.1822763,55.9357322 -3.1822994,55.9357743 -3.1822272,55.9357856 -3.1822372,55.9358092 -3.1822633,55.9358047 -3.1822884,55.9358479 -3.1822404,55.9358614 -3.1821541,55.9358755</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">54388528</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1820142,55.9356776 -3.1821827,55.9356467 -3.1821506,55.9355955 -3.1821998,55.9355854 -3.1822108,55.9356051 -3.182257,55.9355972 -3.1822379,55.9355697 -3.182254,55.9355669 -3.1822479,55.9355573 -3.1819701,55.9356068 -3.1819771,55.9356186 -3.181962,55.9356281 -3.181966,55.9356416 -3.1819971,55.9356456 -3.1820002,55.9356514 -3.1819929,55.9356524 -3.181998,55.9356624 -3.1820015,55.9356691 -3.182011,55.9356674 -3.1820142,55.9356776</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">54388529</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1819701,55.9356068 -3.181968,55.9355986 -3.1819459,55.9355946 -3.1819359,55.93558 -3.1819469,55.9355671 -3.1819394,55.935553 -3.1819278,55.9355312 -3.1820984,55.9355019 -3.1821285,55.9355531 -3.1821766,55.9355458 -3.1821646,55.9355238 -3.1822097,55.9355171 -3.1822197,55.9355491 -3.1822428,55.9355463 -3.1822479,55.9355573 -3.1819701,55.9356068</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">54388530</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1819134,55.9354724 -3.1819176,55.9354848 -3.1819386,55.9354923 -3.1819828,55.9354863 -3.1819823,55.9354742 -3.1819715,55.9354595 -3.1820306,55.9354491 -3.1820162,55.935421 -3.1821343,55.9353988 -3.1821055,55.935351 -3.1819931,55.9353723 -3.1819746,55.935347 -3.1818379,55.9353706 -3.181839,55.9353758 -3.1818451,55.9353789 -3.1818349,55.9353893 -3.1818385,55.9354043 -3.1818508,55.9354117 -3.181859,55.9354106 -3.1818678,55.9354249 -3.181876,55.9354382 -3.1818631,55.9354454 -3.1818698,55.9354589 -3.1818867,55.935463 -3.181895,55.9354638 -3.1818965,55.9354736 -3.1819134,55.9354724</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">127649510</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1807673,55.9372651 -3.1807416,55.93721 -3.1807123,55.9371471 -3.1807281,55.937144 -3.1808102,55.9371276 -3.1809073,55.9371298 -3.180988,55.9371464 -3.1809803,55.937201 -3.1809068,55.9371839 -3.1808706,55.9371832 -3.1808749,55.9371939 -3.18088,55.9372065 -3.1809551,55.937205 -3.1809689,55.9372438 -3.1807673,55.9372651</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">130272954</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1776052,55.9335676 -3.1775273,55.9334472 -3.1772677,55.9335013 -3.1772024,55.9334996 -3.1770482,55.9335328 -3.1769771,55.9334215 -3.1771521,55.933381 -3.1772499,55.9333584 -3.1772677,55.9333767 -3.1776354,55.9333036 -3.1776706,55.93336 -3.1777783,55.9335277 -3.1776052,55.9335676</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">130272957</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1777078,55.9338294 -3.1773857,55.9339171 -3.1773124,55.9338325 -3.1776345,55.9337449 -3.1777078,55.9338294</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">130272959</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1777783,55.9335277 -3.1779754,55.9337511 -3.1778057,55.9338017 -3.1776052,55.9335676 -3.1777783,55.9335277</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">134975990</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.181649,55.9377137 -3.1815813,55.9375972 -3.1814434,55.9376223 -3.1815111,55.9377389 -3.181649,55.9377137</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">138114398</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.177585,55.9341642 -3.1778298,55.9340971 -3.1777607,55.9340179 -3.1775158,55.934085 -3.177585,55.9341642</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">138114399</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1781037,55.9342378 -3.1780023,55.9341189 -3.1776254,55.9342331 -3.1777147,55.9343233 -3.1781037,55.9342378</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">140058874</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1814038,55.9370536 -3.1811963,55.9370854 -3.1809073,55.9371298 -3.1808329,55.9369756 -3.1813267,55.9369031 -3.1814038,55.9370536</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">152497860</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1767731,55.9336139 -3.1766147,55.9336491 -3.1765406,55.9335444 -3.1766259,55.9335255 -3.1766051,55.9334962 -3.1767106,55.9334728 -3.176798,55.9334534 -3.1768095,55.9334696 -3.1768942,55.9334508 -3.176968,55.933555 -3.1768052,55.9335911 -3.1768107,55.9335989 -3.1767691,55.9336082 -3.1767731,55.9336139</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">152497861</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.177648,55.9346838 -3.1775342,55.934565 -3.1778267,55.9344697 -3.1779357,55.9345933 -3.177648,55.9346838</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">152497862</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1784833,55.9342884 -3.1783096,55.9343261 -3.1782313,55.9342287 -3.1783978,55.9341876 -3.1784833,55.9342884</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">152497863</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1782383,55.9339893 -3.1780249,55.9340505 -3.177938,55.9339556 -3.1781515,55.9338943 -3.1782383,55.9339893</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">152497864</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1781515,55.9338943 -3.177938,55.9339556 -3.1777998,55.9338026 -3.1780137,55.933742 -3.1781515,55.9338943</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">152497865</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1782888,55.9340555 -3.1780904,55.9341111 -3.1780344,55.9340478 -3.1782311,55.9339913 -3.1782888,55.9340555</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">152497866</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1780249,55.9346963 -3.1777411,55.93437 -3.1777133,55.9343381 -3.1781664,55.934238 -3.1782066,55.9342985 -3.1782505,55.9342953 -3.1782782,55.9343322 -3.1784837,55.9342883 -3.1787151,55.934563 -3.1785891,55.9345873 -3.1784896,55.9346065 -3.1780624,55.9346891 -3.1780249,55.9346963</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">156315683</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1792705,55.9345023 -3.1791148,55.9345442 -3.1790673,55.9344888 -3.1789943,55.9345085 -3.1788844,55.9343803 -3.1791119,55.9343191 -3.1791609,55.9343763 -3.1792539,55.9343513 -3.179313,55.9344202 -3.1792212,55.9344449 -3.1792705,55.9345023</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">156315684</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1793948,55.9345383 -3.1791777,55.9345981 -3.1791442,55.934563 -3.1791198,55.9345373 -3.1793405,55.9344755 -3.1793747,55.9345151 -3.1793948,55.9345383</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">156315685</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.179223,55.9343244 -3.1790837,55.9341547 -3.1793542,55.9340776 -3.1793153,55.934033 -3.1795406,55.9339484 -3.1796944,55.9340974 -3.1797704,55.9341937 -3.179223,55.9343244</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">156315686</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1794608,55.9344927 -3.1793747,55.9345151 -3.1793405,55.9344755 -3.1793305,55.9344644 -3.1793468,55.9344593 -3.1792889,55.9343883 -3.1793839,55.934363 -3.1794445,55.9344471 -3.1794264,55.9344517 -3.1794608,55.9344927</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">182233344</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.180858,55.9357949 -3.1804017,55.9358951 -3.1803525,55.935832 -3.1803243,55.9358379 -3.1802933,55.9357959 -3.1803193,55.9357895 -3.1807792,55.9356886 -3.180858,55.9357949</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">186488883</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1800782,55.9356422 -3.1801031,55.9356809 -3.1801345,55.9356754 -3.1801291,55.9356663 -3.1801623,55.9356597 -3.1801941,55.9357097 -3.1801625,55.9357155 -3.1801572,55.9357069 -3.1801255,55.9357132 -3.1801535,55.9357537 -3.179968,55.935786 -3.1799598,55.9357746 -3.1799055,55.9356905 -3.1798969,55.9356765 -3.1800782,55.9356422</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">186488884</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1800766,55.9359566 -3.1800263,55.9358777 -3.1801998,55.9358446 -3.1802105,55.9358634 -3.180234,55.9358592 -3.18024,55.9358697 -3.180287,55.9358622 -3.1803015,55.9358894 -3.1802561,55.9358964 -3.1802577,55.9359002 -3.1802528,55.935902 -3.1802534,55.9359069 -3.180242,55.9359096 -3.1802513,55.9359269 -3.1800954,55.9359536 -3.1800766,55.9359566</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">186488885</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1802098,55.9358432 -3.1801998,55.9358446 -3.1800263,55.9358777 -3.180017,55.9358631 -3.1800031,55.9358412 -3.1799841,55.9358103 -3.179968,55.935786 -3.1801535,55.9357537 -3.1801659,55.9357744 -3.1802098,55.9358432</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">186489113</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1797016,55.935353 -3.1802275,55.9352429 -3.1803522,55.9352779 -3.1805315,55.9355503 -3.180306,55.9355923 -3.1801444,55.9353372 -3.179915,55.9353827 -3.1799236,55.9353955 -3.1797561,55.9354306 -3.1797016,55.935353</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">186491109</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1800071,55.9344917 -3.1800937,55.9346176 -3.1798019,55.9346828 -3.1797156,55.9345609 -3.1800071,55.9344917</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">186491110</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1802421,55.9348334 -3.1801665,55.9347234 -3.1798781,55.9347904 -3.1799558,55.9349001 -3.1802421,55.9348334</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">186491112</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1803919,55.9350512 -3.1803165,55.9349415 -3.1800321,55.9350079 -3.180108,55.9351151 -3.1803919,55.9350512</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">186491113</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1797417,55.9351838 -3.179593,55.9352186 -3.1796258,55.9352597 -3.1796634,55.9353068 -3.1798105,55.9352752 -3.1797528,55.9351986 -3.1797417,55.9351838</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">186491114</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1801665,55.9347234 -3.1800937,55.9346176 -3.1798019,55.9346828 -3.1798781,55.9347904 -3.1801665,55.9347234</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">186491115</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1803165,55.9349415 -3.1802421,55.9348334 -3.1799558,55.9349001 -3.1800321,55.9350079 -3.1803165,55.9349415</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">186491116</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1797528,55.9351986 -3.1799653,55.9351554 -3.1800154,55.9352257 -3.1800367,55.9352578 -3.1798286,55.9352993 -3.1798105,55.9352752 -3.1797528,55.9351986</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">186491117</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1803958,55.9350585 -3.1799653,55.9351554 -3.1800154,55.9352257 -3.1800322,55.9352321 -3.1800537,55.9352343 -3.1800671,55.9352332 -3.1803648,55.9351663 -3.1804495,55.9351498 -3.1803958,55.9350585</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">186491118</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1803435,55.9356542 -3.1802568,55.9356708 -3.1803341,55.9357823 -3.1807772,55.9356854 -3.1804495,55.9351498 -3.1803648,55.9351663 -3.1803826,55.9351888 -3.1806066,55.9355546 -3.1803111,55.9356065 -3.1803435,55.9356542</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">186491427</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1798924,55.9343422 -3.1796017,55.9344099 -3.1797049,55.9345459 -3.1797156,55.9345609 -3.1800071,55.9344917 -3.1798924,55.9343422</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">186491428</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1791781,55.9347036 -3.179593,55.9352186 -3.1797417,55.9351838 -3.1793618,55.9346968 -3.179441,55.9346796 -3.1794182,55.9346525 -3.1791781,55.9347036</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">186492092</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1807472,55.937 -3.1806815,55.9370127 -3.1806665,55.9370255 -3.1807029,55.9370968 -3.1807281,55.937144 -3.1808102,55.9371276 -3.1809073,55.9371298 -3.1808329,55.9369756 -3.1807472,55.937</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">186492456</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1806091,55.9373808 -3.1803179,55.9374379 -3.1802818,55.9373815 -3.1804951,55.9373364 -3.1804857,55.9373184 -3.1805742,55.9373041 -3.1805921,55.9373435 -3.1806091,55.9373808</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">186492457</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1796472,55.9376007 -3.1797787,55.9375836 -3.1797325,55.9374762 -3.1797077,55.9374221 -3.1794435,55.9374694 -3.1795116,55.937617 -3.1796472,55.9376007</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">186492458</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1799694,55.9371254 -3.180416,55.9370631 -3.180546,55.9373034 -3.1804857,55.9373184 -3.1804951,55.9373364 -3.1802818,55.9373815 -3.1803179,55.9374379 -3.1801827,55.9374729 -3.1800711,55.9375055 -3.1799546,55.9372478 -3.1800349,55.9372366 -3.1799694,55.9371254</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">228652963</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1816442,55.9373917 -3.1812437,55.9373731 -3.1812461,55.9373571 -3.1812192,55.9373435 -3.1811745,55.9373414 -3.1811442,55.9373524 -3.1811418,55.9373683 -3.1810163,55.9373625 -3.181046,55.9374361 -3.1817061,55.9374664 -3.1816442,55.9373917</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">228652967</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1810163,55.9373625 -3.181046,55.9374361 -3.1810218,55.937435 -3.1808471,55.937427 -3.1808298,55.9373919 -3.1807673,55.9372651 -3.1809689,55.9372438 -3.1810069,55.9373391 -3.1809466,55.9373452 -3.1809516,55.937359 -3.1809923,55.9373612 -3.1810163,55.9373625</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">230042956</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1846039,55.9380125 -3.1845951,55.9379831 -3.1845378,55.9379867 -3.1845426,55.9380154 -3.1844219,55.938022 -3.1843972,55.9378992 -3.1844489,55.9378962 -3.184752,55.9379131 -3.1847555,55.9379111 -3.1847778,55.9379115 -3.1848011,55.9379244 -3.1848021,55.9379369 -3.1847985,55.9379389 -3.1848147,55.9379924 -3.1846039,55.9380125</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">236365967</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1803567,55.9363589 -3.1804717,55.9363452 -3.1804972,55.9363809 -3.1805938,55.9365912 -3.1805408,55.936605 -3.1804817,55.9366123 -3.1804721,55.9365922 -3.1804043,55.9364499 -3.1803955,55.9364315 -3.1803887,55.9364187 -3.1803567,55.9363589</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">236365971</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1811939,55.9366379 -3.1808801,55.9366259 -3.1808683,55.9366008 -3.1808513,55.9365777 -3.1808378,55.9365416 -3.181157,55.9364966 -3.1812261,55.9366335 -3.1811939,55.9366379</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243689329</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1850744,55.9376416 -3.1852389,55.9376485 -3.1852235,55.9377636 -3.185059,55.9377567 -3.1850744,55.9376416</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243689333</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1830504,55.9373857 -3.1831899,55.9373717 -3.1832252,55.937482 -3.1830857,55.937496 -3.1830504,55.9373857</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243689334</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1827008,55.9363705 -3.1830228,55.9363306 -3.1830647,55.9364367 -3.1829784,55.9364474 -3.1828213,55.9364669 -3.1827427,55.9364766 -3.1827008,55.9363705</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243689336</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1836914,55.9377556 -3.1833028,55.9377946 -3.1832724,55.9376996 -3.183661,55.9376606 -3.1836914,55.9377556</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243689339</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1826869,55.9372334 -3.1825628,55.9372458 -3.182526,55.9371308 -3.1826501,55.9371183 -3.1826869,55.9372334</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243689341</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1846875,55.9374805 -3.1844707,55.9374779 -3.1844763,55.9373318 -3.1846931,55.9373344 -3.1846875,55.9374805</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243689344</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1832194,55.9364152 -3.1831836,55.9363246 -3.1833932,55.9362987 -3.183429,55.9363892 -3.1833119,55.9364037 -3.1832194,55.9364152</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243689346</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1833248,55.9367009 -3.1833836,55.9366914 -3.1834815,55.9366756 -3.1836007,55.9366563 -3.1836983,55.9366406 -3.1837494,55.9366323 -3.1838058,55.9367416 -3.1833812,55.9368103 -3.1833248,55.9367009</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243689350</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1831142,55.9377089 -3.1832434,55.937696 -3.1832724,55.9377866 -3.1831433,55.9377996 -3.1831142,55.9377089</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243689353</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1846931,55.9372645 -3.1844822,55.9372658 -3.1844794,55.9371243 -3.1846903,55.937123 -3.1846931,55.9372645</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243689354</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1846292,55.9368604 -3.1844048,55.9368909 -3.1843355,55.9367308 -3.1845599,55.9367003 -3.1846292,55.9368604</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243689355</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1851231,55.9365449 -3.184856,55.9365866 -3.1847874,55.9364485 -3.1848764,55.9364346 -3.1849655,55.9364208 -3.1850545,55.9364069 -3.1851231,55.9365449</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243689357</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1832308,55.9368318 -3.1828466,55.9368939 -3.1827891,55.9367823 -3.1828945,55.9367653 -3.1830733,55.9367364 -3.1831733,55.9367202 -3.183201,55.936774 -3.1832308,55.9368318</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243689358</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1838384,55.9373173 -3.1838166,55.9372492 -3.1840049,55.9372303 -3.1840267,55.9372984 -3.1838384,55.9373173</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243689366</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1843878,55.9369163 -3.1844563,55.9370742 -3.1842574,55.9371013 -3.184189,55.9369434 -3.1843878,55.9369163</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243689367</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.18244,55.937123 -3.1824842,55.9372612 -3.1822818,55.9372816 -3.1822376,55.9371434 -3.18244,55.937123</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243689369</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1830754,55.9378146 -3.1829279,55.9378294 -3.1828978,55.9377354 -3.1830453,55.9377206 -3.1830754,55.9378146</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243689371</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1839411,55.9371324 -3.183593,55.9371673 -3.183561,55.9370671 -3.183909,55.9370321 -3.1839411,55.9371324</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243689372</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1849007,55.936163 -3.184857,55.9360662 -3.1851429,55.9360257 -3.1851866,55.9361225 -3.1850873,55.9361366 -3.1849007,55.936163</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243689381</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1825383,55.936811 -3.1825934,55.9369179 -3.1822078,55.9369802 -3.1821689,55.9369048 -3.1821527,55.9368734 -3.1822528,55.9368572 -3.1824441,55.9368263 -3.1825383,55.936811</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243689382</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1814811,55.9366355 -3.181422,55.9365207 -3.1816207,55.9364886 -3.1816442,55.9365343 -3.181749,55.9365173 -3.1817845,55.9365864 -3.181635,55.9366106 -3.1814811,55.9366355</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243689384</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1844953,55.936124 -3.1844794,55.9360889 -3.1846214,55.9360688 -3.1846373,55.9361039 -3.1847546,55.9360873 -3.184801,55.9361901 -3.1847405,55.9361987 -3.1846041,55.936218 -3.1845417,55.9362268 -3.1845178,55.9361738 -3.1844953,55.936124</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243689387</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.183869,55.9375924 -3.183948,55.9375844 -3.1839601,55.9376222 -3.1840869,55.9376094 -3.1841187,55.9377089 -3.1838246,55.9377385 -3.1837927,55.937639 -3.183881,55.9376301 -3.183869,55.9375924</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243689391</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1831504,55.937119 -3.1831448,55.9371013 -3.1832688,55.9370888 -3.1832745,55.9371065 -3.1834438,55.9370895 -3.1834694,55.9371697 -3.1830428,55.9372125 -3.1830171,55.9371324 -3.1831504,55.937119</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243689392</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1845058,55.9375669 -3.1845099,55.9375349 -3.1846438,55.9375402 -3.1846397,55.9375723 -3.1846764,55.9375737 -3.1846625,55.9376825 -3.1844545,55.9376742 -3.1844684,55.9375654 -3.1845058,55.9375669</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697100</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1838906,55.9336565 -3.1839078,55.9336921 -3.1839371,55.9336877 -3.1839628,55.9337409 -3.1838301,55.933761 -3.1837872,55.9336722 -3.18373,55.9336808 -3.1836795,55.9335764 -3.1837882,55.9335599 -3.1838891,55.9335446 -3.1839396,55.933649 -3.1838906,55.9336565</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697125</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1808597,55.9349429 -3.1808095,55.9348487 -3.180971,55.9348216 -3.1809958,55.9348682 -3.1810212,55.9349159 -3.1808597,55.9349429</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697133</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1806168,55.9344604 -3.1804161,55.9345262 -3.1802631,55.9343797 -3.1804638,55.9343139 -3.1805207,55.9343684 -3.1805614,55.9344074 -3.1806168,55.9344604</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697135</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1827943,55.9352544 -3.1829895,55.935217 -3.1830656,55.9353416 -3.1828704,55.935379 -3.1827943,55.9352544</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697136</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1847255,55.9339695 -3.1846663,55.9339799 -3.1845477,55.9340009 -3.1844913,55.9340108 -3.1844377,55.9339153 -3.1846719,55.933874 -3.1847255,55.9339695</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697140</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1814766,55.933999 -3.1814125,55.9339211 -3.1815141,55.9338949 -3.1816032,55.9338719 -3.1816672,55.9339499 -3.1814766,55.933999</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697141</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1844762,55.9349605 -3.1843518,55.9347948 -3.1845346,55.9347517 -3.1846589,55.9349175 -3.1844762,55.9349605</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697142</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.181893,55.9343319 -3.1819566,55.9344453 -3.1817933,55.9344741 -3.1816308,55.9345027 -3.1815671,55.9343892 -3.181893,55.9343319</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697147</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1805706,55.9333226 -3.1806894,55.9334178 -3.1804913,55.9334953 -3.1803725,55.9334 -3.1804239,55.9333799 -3.1805117,55.9333456 -3.1805706,55.9333226</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697148</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1799175,55.934058 -3.1801135,55.9339937 -3.1801638,55.9340419 -3.1802198,55.9340954 -3.180264,55.9341377 -3.180068,55.934202 -3.1799175,55.934058</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697149</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1807807,55.9348167 -3.1807076,55.9347151 -3.1808517,55.9346825 -3.1808801,55.9347219 -3.1809249,55.9347841 -3.1807807,55.9348167</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697150</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.180703,55.9336429 -3.1809835,55.9335483 -3.1810941,55.9336512 -3.1810164,55.9336774 -3.1809054,55.9337148 -3.1808136,55.9337458 -3.180703,55.9336429</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697151</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1853184,55.9357495 -3.1851581,55.9357872 -3.1850706,55.9356705 -3.1852309,55.9356328 -3.1853184,55.9357495</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697155</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1842838,55.9339216 -3.1843416,55.9340247 -3.1842526,55.9340404 -3.1841471,55.9340589 -3.1840892,55.9339559 -3.1842838,55.9339216</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697157</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1844963,55.9347055 -3.1843222,55.9347464 -3.1842263,55.9346186 -3.1844004,55.9345776 -3.1844963,55.9347055</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697158</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1815082,55.9345282 -3.1814209,55.9345436 -3.1813355,55.9345586 -3.1812746,55.93445 -3.1814473,55.9344196 -3.1815082,55.9345282</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697162</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1830899,55.9353774 -3.1832082,55.935571 -3.1830811,55.9355954 -3.1829628,55.9354017 -3.1830899,55.9353774</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697163</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1813836,55.9348938 -3.1814269,55.9348864 -3.1815957,55.9348576 -3.1816909,55.9348413 -3.1817425,55.9349361 -3.1814352,55.9349886 -3.1813836,55.9348938</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697164</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1811477,55.9336304 -3.1810561,55.9335375 -3.1813253,55.9334542 -3.1814169,55.9335471 -3.1813299,55.933574 -3.1812204,55.9336079 -3.1811477,55.9336304</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697165</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1827063,55.9332117 -3.1827425,55.9333314 -3.1826501,55.9333402 -3.1825233,55.9333522 -3.1824872,55.9332325 -3.1827063,55.9332117</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697177</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1850948,55.9341682 -3.1852114,55.9341477 -3.1853784,55.9341183 -3.1854589,55.9341041 -3.1855139,55.9342021 -3.1851498,55.9342662 -3.1850948,55.9341682</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697178</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1824347,55.9333552 -3.1823562,55.9333649 -3.1822431,55.9333788 -3.1821538,55.9333898 -3.1821164,55.9332946 -3.1823973,55.93326 -3.1824347,55.9333552</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697184</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1812578,55.9353052 -3.1811697,55.93532 -3.1810672,55.9353371 -3.180968,55.9351511 -3.1810533,55.9351369 -3.1811586,55.9351193 -3.1811858,55.9351703 -3.1812265,55.9352466 -3.1812578,55.9353052</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697186</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1833976,55.9342122 -3.1833104,55.9342275 -3.1831421,55.9342572 -3.1830369,55.9342757 -3.1829815,55.934177 -3.1833422,55.9341135 -3.1833976,55.9342122</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697188</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1852413,55.9338722 -3.1851383,55.9338903 -3.1850419,55.9339073 -3.1849963,55.9338259 -3.1851957,55.9337908 -3.1852413,55.9338722</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697189</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1837572,55.9362282 -3.1835849,55.9362612 -3.1834996,55.9361216 -3.1836719,55.9360886 -3.1837572,55.9362282</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697190</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.181737,55.9334728 -3.18166,55.9334917 -3.1815668,55.9335146 -3.1814901,55.9335334 -3.1814141,55.9334361 -3.1816611,55.9333756 -3.181737,55.9334728</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697192</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1811085,55.9350577 -3.1809251,55.9350884 -3.1808685,55.9349823 -3.1810519,55.9349516 -3.1810815,55.9350071 -3.1811085,55.9350577</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697193</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1827935,55.9341483 -3.182856,55.9342597 -3.1827583,55.9342769 -3.1826367,55.9342984 -3.182614,55.9342579 -3.1825742,55.9341869 -3.1827935,55.9341483</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697198</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1853738,55.9348409 -3.1854105,55.9348898 -3.1852287,55.9349326 -3.1851697,55.9348539 -3.1854081,55.9347978 -3.1854304,55.9348276 -3.1853738,55.9348409</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697201</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1835058,55.9350405 -3.18359,55.9350244 -3.1836313,55.9350921 -3.1834063,55.9351352 -3.1833324,55.9350142 -3.1834733,55.9349872 -3.1835058,55.9350405</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697209</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1822949,55.9337728 -3.1823209,55.9338201 -3.1822098,55.9338392 -3.1821838,55.933792 -3.1821279,55.9336904 -3.1822299,55.9336728 -3.182336,55.9336545 -3.1823919,55.9337561 -3.1822949,55.9337728</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697210</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1830242,55.9336944 -3.1827964,55.933711 -3.1826815,55.9337194 -3.1826651,55.9336489 -3.1827799,55.9336405 -3.1827716,55.9336048 -3.1828659,55.9335979 -3.1829994,55.9335881 -3.1830242,55.9336944</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697211</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1817904,55.9347675 -3.1819437,55.9347414 -3.1820326,55.9347262 -3.1820889,55.9348298 -3.1820001,55.934845 -3.1820275,55.9348954 -3.1818742,55.9349216 -3.1817904,55.9347675</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697212</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1847931,55.934337 -3.1848187,55.9343827 -3.1846858,55.9344061 -3.1846011,55.9342551 -3.184734,55.9342317 -3.184808,55.9342187 -3.1848671,55.934324 -3.1847931,55.934337</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697213</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1849291,55.935344 -3.1849896,55.9353298 -3.1851512,55.9355452 -3.1849743,55.9355868 -3.1848171,55.9353773 -3.184756,55.9353917 -3.184728,55.9353545 -3.1849056,55.9353127 -3.1849291,55.935344</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697214</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1800578,55.9343651 -3.1800209,55.9343298 -3.1801728,55.9342801 -3.1801173,55.934227 -3.1803018,55.9341665 -3.1803491,55.9342118 -3.1803936,55.9342544 -3.1802366,55.9343059 -3.1802371,55.9343063 -3.1800578,55.9343651</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697218</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1817683,55.9338927 -3.1816923,55.9339085 -3.181676,55.9338841 -3.1816294,55.933814 -3.1817054,55.9337981 -3.1817992,55.9337786 -3.1818458,55.9338486 -3.181752,55.9338682 -3.1817683,55.9338927</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697222</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1832127,55.9346648 -3.183142,55.9346773 -3.1831241,55.9346453 -3.1830455,55.9346592 -3.1829851,55.9345516 -3.1830514,55.9345399 -3.1831446,55.9345235 -3.1832329,55.9345079 -3.1832933,55.9346156 -3.1831948,55.9346329 -3.1832127,55.9346648</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697225</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1845504,55.9333875 -3.1845764,55.9334012 -3.1844673,55.933466 -3.1843453,55.9334015 -3.1844527,55.9333378 -3.1843628,55.9332903 -3.1844912,55.933214 -3.1845749,55.9332582 -3.1846771,55.9333123 -3.1845504,55.9333875</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697227</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1824073,55.9336489 -3.1824893,55.9336412 -3.1825432,55.9336361 -3.1825385,55.9336203 -3.1826313,55.9336116 -3.1826635,55.9337189 -3.1825707,55.9337276 -3.182564,55.9337053 -3.1824281,55.9337181 -3.1824073,55.9336489</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697234</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.180586,55.9337539 -3.1806067,55.9337469 -3.1807009,55.9338346 -3.1806123,55.9338645 -3.1805081,55.9338996 -3.1804139,55.9338119 -3.1805146,55.933778 -3.180482,55.9337477 -3.1805533,55.9337236 -3.180586,55.9337539</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697239</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1819316,55.9338477 -3.1818814,55.9338564 -3.1818239,55.9337518 -3.1819219,55.9337349 -3.1819951,55.9337214 -3.1820894,55.9337059 -3.1821469,55.9338105 -3.1820521,55.9338269 -3.1820816,55.9338806 -3.1819611,55.9339014 -3.1819316,55.9338477</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697242</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1837962,55.9354459 -3.1838132,55.9354737 -3.1836489,55.9355052 -3.183549,55.9353416 -3.1837133,55.9353102 -3.1837585,55.9353841 -3.1838537,55.9353659 -3.1838915,55.9354276 -3.1837962,55.9354459</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697243</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1814422,55.9356364 -3.1812546,55.9356678 -3.1812274,55.9356167 -3.1811566,55.9356286 -3.1811319,55.9355823 -3.1812027,55.9355704 -3.1811758,55.93552 -3.1813634,55.9354886 -3.1813833,55.9355259 -3.1814218,55.9355982 -3.1814422,55.9356364</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697246</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.184093,55.9359447 -3.1839737,55.9359675 -3.1839095,55.9358624 -3.1840879,55.9358282 -3.184144,55.9359201 -3.1841894,55.9359114 -3.1842167,55.935956 -3.1841122,55.9359761 -3.184093,55.9359447</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697247</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1848533,55.933564 -3.1847055,55.9334859 -3.1848694,55.9333886 -3.1849645,55.9334388 -3.1850351,55.9334761 -3.1849418,55.9335315 -3.1849827,55.9335532 -3.1848974,55.9336038 -3.1848386,55.9335727 -3.1848533,55.933564</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697249</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1846913,55.9352589 -3.1846233,55.9351682 -3.1848041,55.9351257 -3.1848721,55.9352163 -3.1849215,55.9352822 -3.1847407,55.9353248 -3.1846223,55.9353526 -3.1845729,55.9352867 -3.1846913,55.9352589</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697250</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1835895,55.9344447 -3.1836959,55.934426 -3.18374,55.9344182 -3.183789,55.9345057 -3.183745,55.9345134 -3.1837729,55.9345632 -3.1836666,55.934582 -3.1836386,55.9345322 -3.1835895,55.9344447</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697251</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1839034,55.9355886 -3.1839386,55.9356462 -3.1837534,55.9356817 -3.1836577,55.9355249 -3.1838429,55.9354894 -3.1838744,55.9355411 -3.1839418,55.9355282 -3.1839708,55.9355757 -3.1839034,55.9355886</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697252</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1836056,55.9341547 -3.1835822,55.9341129 -3.1834717,55.9341323 -3.1834445,55.9340838 -3.1839305,55.9339983 -3.1839577,55.9340468 -3.1838711,55.934062 -3.1838946,55.9341038 -3.1838552,55.9341107 -3.183651,55.9341467 -3.1836056,55.9341547</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697253</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1845265,55.9349967 -3.1845567,55.9350368 -3.1846951,55.9350043 -3.1847724,55.9351073 -3.184632,55.9351403 -3.1845865,55.9350796 -3.1844883,55.9351028 -3.1844264,55.9350202 -3.1845265,55.9349967</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697254</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1802813,55.9335453 -3.1801111,55.9336137 -3.1800375,55.9335561 -3.1801678,55.9335038 -3.1802459,55.9334724 -3.1803116,55.9335237 -3.1803728,55.9334991 -3.180423,55.9335383 -3.1803236,55.9335782 -3.1802813,55.9335453</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697255</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1843532,55.9344752 -3.1841687,55.9345077 -3.1841383,55.9344535 -3.1840792,55.9344639 -3.1840287,55.9343739 -3.1841644,55.93435 -3.1842928,55.9343273 -3.1843433,55.9344174 -3.1843228,55.934421 -3.1843532,55.9344752</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">243697256</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1836957,55.9351397 -3.1837478,55.9352249 -3.1836641,55.935241 -3.1836898,55.9352831 -3.183523,55.9353151 -3.1834294,55.9351618 -3.1835962,55.9351298 -3.183612,55.9351557 -3.1836957,55.9351397</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249095987</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1787361,55.935264 -3.1789216,55.935508 -3.1787694,55.9355443 -3.1785839,55.9353003 -3.1787361,55.935264</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249095989</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1792247,55.9354118 -3.1790146,55.9354626 -3.1788482,55.9352464 -3.1790582,55.9351957 -3.1792247,55.9354118</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249095990</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1800014,55.9355163 -3.1798151,55.9355524 -3.179775,55.9354962 -3.1797318,55.9354357 -3.1797561,55.9354306 -3.1799236,55.9353955 -3.1800014,55.9355163</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249095991</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1793111,55.9351376 -3.1791789,55.9351695 -3.1791629,55.9351734 -3.1790447,55.9350199 -3.1791546,55.9349933 -3.1791928,55.9349841 -3.1793111,55.9351376</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249095992</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1788935,55.9349337 -3.1789281,55.9349767 -3.1789528,55.9349705 -3.1789992,55.9350284 -3.1788172,55.9350724 -3.1788042,55.9350539 -3.1787573,55.9349597 -3.1788935,55.9349337</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249095993</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1791546,55.9349933 -3.1790447,55.9350199 -3.1789992,55.9350284 -3.1789528,55.9349705 -3.1789192,55.9349256 -3.1790226,55.9349036 -3.1790908,55.9349027 -3.1791546,55.9349933</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249095994</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1785443,55.9346686 -3.1784896,55.9346837 -3.1785744,55.9347801 -3.1783567,55.9348402 -3.1782578,55.9348675 -3.178227,55.934876 -3.1780624,55.9346891 -3.1784896,55.9346065 -3.1785443,55.9346686</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249095996</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.179374,55.9354229 -3.1793518,55.9353941 -3.1792429,55.9354204 -3.1791472,55.9352961 -3.1792561,55.9352698 -3.1791789,55.9351695 -3.1793111,55.9351376 -3.1795107,55.9353968 -3.179374,55.9354229</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249095997</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1787285,55.935066 -3.1788075,55.9352281 -3.1786682,55.9352603 -3.1785826,55.9350918 -3.1784518,55.9351126 -3.1783938,55.9351218 -3.1783412,55.9350183 -3.1783955,55.9350096 -3.1787528,55.9349527 -3.1787573,55.9349597 -3.1788042,55.9350539 -3.1787285,55.935066</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249188040</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1779364,55.9350372 -3.1778731,55.9350571 -3.1778118,55.9350765 -3.1777808,55.9350456 -3.1776883,55.9350747 -3.1775717,55.9349578 -3.1775795,55.9349409 -3.1776101,55.9349317 -3.1776451,55.934936 -3.1778668,55.9348678 -3.1777894,55.9347898 -3.1779009,55.9347551 -3.1779775,55.9348357 -3.1780369,55.9348183 -3.1780271,55.9348078 -3.1781333,55.934776 -3.1782416,55.9349004 -3.178098,55.9349456 -3.1779054,55.9350063 -3.1779364,55.9350372</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249188043</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1789367,55.9366327 -3.178957,55.9366527 -3.1788645,55.9366822 -3.1788442,55.9366621 -3.1786522,55.9367232 -3.1786814,55.936752 -3.1785907,55.9367795 -3.1785547,55.9367456 -3.1785209,55.9367415 -3.1784913,55.9367313 -3.1784694,55.9367163 -3.1783737,55.9366217 -3.1784423,55.9365999 -3.1784926,55.9366494 -3.1784894,55.9366449 -3.1787444,55.9365637 -3.178837,55.9365343 -3.1788878,55.9365844 -3.1789367,55.9366327</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249188047</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1779418,55.9356646 -3.17797,55.9356556 -3.1779983,55.9356836 -3.1780477,55.9357323 -3.1781121,55.9357959 -3.1781646,55.9358477 -3.1782171,55.9358994 -3.1782637,55.9359454 -3.1783162,55.9359972 -3.1783687,55.936049 -3.1784212,55.9361007 -3.1784676,55.9361465 -3.1785001,55.9361786 -3.178321,55.9362355 -3.1782965,55.9362433 -3.1781945,55.9361427 -3.178219,55.9361349 -3.1777908,55.9357126 -3.1777665,55.9356886 -3.1779175,55.9356406 -3.1779418,55.9356646</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249188050</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1769246,55.9341032 -3.1769358,55.934119 -3.1767458,55.9341612 -3.1767197,55.9341242 -3.1766674,55.9340502 -3.1766413,55.9340132 -3.1767438,55.9339905 -3.1767915,55.9340579 -3.1768789,55.9340385 -3.1768891,55.9340529 -3.1770209,55.9340237 -3.1770564,55.934074 -3.1769246,55.9341032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249188053</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1776792,55.9343867 -3.1777335,55.9344434 -3.1776453,55.9344699 -3.1776224,55.934446 -3.1772437,55.9345597 -3.1772017,55.9345157 -3.1770606,55.9345581 -3.1771111,55.9346108 -3.1771714,55.9346739 -3.1775342,55.934565 -3.1778267,55.9344697 -3.1777411,55.93437 -3.1776792,55.9343867</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249188055</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1787813,55.9359953 -3.1788138,55.9360273 -3.1792108,55.9359011 -3.1793132,55.9360021 -3.1792737,55.9360147 -3.1792979,55.9360385 -3.1791153,55.9360966 -3.1790912,55.9360728 -3.1790046,55.9361003 -3.1790465,55.9361416 -3.1788615,55.9362005 -3.1788196,55.9361591 -3.1787318,55.9361871 -3.1785969,55.936054 -3.1784364,55.9358957 -3.178413,55.9358726 -3.1784022,55.935862 -3.1787521,55.9357507 -3.1787101,55.9357093 -3.1788081,55.9356781 -3.1789139,55.9357825 -3.1786116,55.9358786 -3.1787424,55.9360077 -3.1787813,55.9359953</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249188059</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1767897,55.9345105 -3.1768868,55.934608 -3.177013,55.9347347 -3.1770867,55.9348088 -3.1770208,55.9348294 -3.1771452,55.9349544 -3.1772315,55.9349274 -3.1773064,55.9350027 -3.1773685,55.935065 -3.1771955,55.935119 -3.1771334,55.9350567 -3.177023,55.9350912 -3.1769482,55.935016 -3.1769893,55.9350031 -3.1768649,55.9348781 -3.1768181,55.9348927 -3.1767443,55.9348186 -3.1768467,55.9347867 -3.1767205,55.93466 -3.1765604,55.93471 -3.1764633,55.9346124 -3.1766234,55.9345624 -3.1767897,55.9345105</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249188063</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1777176,55.9353845 -3.1777431,55.9354096 -3.1777707,55.9354369 -3.1776008,55.9354909 -3.1775477,55.9354385 -3.1777176,55.9353845</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249188066</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1784385,55.9358207 -3.1783885,55.9357713 -3.1783273,55.9357108 -3.1785305,55.9356463 -3.1786637,55.9357779 -3.1785651,55.9358092 -3.1785553,55.9357995 -3.1785432,55.9357875 -3.1784385,55.9358207</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249188068</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.177587,55.9352592 -3.1776496,55.935321 -3.1774742,55.9353767 -3.1774116,55.935315 -3.177587,55.9352592</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249188071</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1766033,55.9340171 -3.1765666,55.9339826 -3.1765035,55.9339234 -3.1764628,55.9338851 -3.1765768,55.933847 -3.1767174,55.933979 -3.1766033,55.9340171</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249188073</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1769991,55.9344106 -3.1769515,55.9343602 -3.1769039,55.9343097 -3.177106,55.9342499 -3.1772012,55.9343508 -3.1769991,55.9344106</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249188075</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1761971,55.9340083 -3.1762202,55.9340322 -3.1762747,55.9340887 -3.1763049,55.9341201 -3.1761115,55.9341786 -3.1760037,55.9340669 -3.1761971,55.9340083</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249188078</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1759918,55.9340481 -3.1758646,55.9339163 -3.1760591,55.9338574 -3.1761015,55.9339013 -3.1761525,55.9339542 -3.1761863,55.9339892 -3.1759918,55.9340481</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249188079</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1793018,55.936687 -3.179283,55.9366587 -3.1792423,55.9365973 -3.1792187,55.9365617 -3.1793831,55.9365275 -3.1794662,55.9366528 -3.1793018,55.936687</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249188081</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1793394,55.9365019 -3.1791722,55.9365459 -3.1791423,55.9365103 -3.1790885,55.9364463 -3.1790614,55.936414 -3.1792286,55.93637 -3.1793394,55.9365019</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249188084</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1785848,55.9362858 -3.1785562,55.9362949 -3.1784084,55.9363419 -3.1782579,55.9363898 -3.1781607,55.9362941 -3.1784877,55.93619 -3.1785848,55.9362858</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249188085</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1778423,55.9355585 -3.1778771,55.9355929 -3.1779055,55.9356209 -3.1777671,55.935665 -3.1777038,55.9356026 -3.1778423,55.9355585</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249188087</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1783252,55.9356938 -3.1782822,55.9356514 -3.1782323,55.9356022 -3.1781833,55.9355539 -3.1784166,55.9354797 -3.1784696,55.9355319 -3.1784098,55.935551 -3.1784987,55.9356386 -3.1783252,55.9356938</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249188089</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.179071,55.9362308 -3.1790862,55.9362458 -3.179104,55.9362633 -3.1789674,55.9363068 -3.1788949,55.9362353 -3.1788763,55.936217 -3.1790597,55.9361586 -3.1790793,55.9361779 -3.1791178,55.9362159 -3.179071,55.9362308</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249188090</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1767854,55.9341922 -3.1769632,55.9341396 -3.177015,55.9341944 -3.1769525,55.9342129 -3.1769853,55.9342476 -3.1768699,55.9342818 -3.1768276,55.934237 -3.1767854,55.9341922</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249188093</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1782789,55.9355088 -3.1780877,55.9355696 -3.1777892,55.9352751 -3.1777639,55.9352502 -3.1779551,55.9351894 -3.1780708,55.9353035 -3.1781332,55.9352836 -3.1783414,55.9354889 -3.1782789,55.9355088</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249188095</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1784084,55.9363419 -3.1785562,55.9362949 -3.1786015,55.9363396 -3.1786799,55.9364168 -3.1787628,55.9364985 -3.1788021,55.9365373 -3.1786543,55.9365843 -3.1785803,55.9366079 -3.1785409,55.9365691 -3.1786149,55.9365455 -3.1784084,55.9363419</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249188098</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1770479,55.9344407 -3.1770944,55.9344269 -3.1771562,55.9344086 -3.1771681,55.9344212 -3.177214,55.9344077 -3.1772675,55.9344644 -3.1772216,55.934478 -3.1772377,55.934495 -3.1771294,55.9345271 -3.1770874,55.9344826 -3.1770479,55.9344407</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">249188107</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1784894,55.9366449 -3.1784682,55.9366602 -3.1784571,55.9366786 -3.1784575,55.936698 -3.1784694,55.9367163 -3.1784913,55.9367313 -3.1785209,55.9367415 -3.1785547,55.9367456 -3.1785891,55.9367432 -3.1789367,55.9366327 -3.1788878,55.9365844 -3.178837,55.9365343 -3.1784894,55.9366449</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">256065879</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1800782,55.9356422 -3.1798969,55.9356765 -3.1798151,55.9355524 -3.1800014,55.9355163 -3.1800782,55.9356422</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">297776970</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1766491,55.937941 -3.1765985,55.937956 -3.1765142,55.9378683 -3.1765674,55.9378521 -3.1766491,55.937941</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">297776971</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.177878,55.9379315 -3.1778586,55.9379116 -3.1778185,55.9379239 -3.1777997,55.9379046 -3.1778398,55.9378923 -3.177822,55.9378741 -3.1779937,55.9378213 -3.1780393,55.9378664 -3.178051,55.9378779 -3.177878,55.9379315</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">297776972</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1776667,55.9377076 -3.1776126,55.9376498 -3.1777687,55.9376007 -3.1777721,55.9376041 -3.1778141,55.9376447 -3.1778284,55.9376584 -3.1776667,55.9377076</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">297776990</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.177822,55.9378741 -3.1778061,55.9378578 -3.1777697,55.9378705 -3.1777467,55.9378463 -3.1777847,55.9378359 -3.1777684,55.9378191 -3.177939,55.9377672 -3.1779937,55.9378213 -3.177822,55.9378741</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">297776993</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.177974,55.9380152 -3.1779084,55.9380306 -3.1778294,55.9380493 -3.1777694,55.9380634 -3.1777133,55.9379996 -3.1778979,55.9379519 -3.1779166,55.9379471 -3.177974,55.9380152</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">300242463</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1767982,55.9377856 -3.1768691,55.9377652 -3.1769625,55.9378669 -3.1768916,55.9378874 -3.1767982,55.9377856</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">300242464</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1774613,55.9377316 -3.1773818,55.9377574 -3.1774144,55.9377895 -3.1774405,55.9378151 -3.177519,55.9377888 -3.1774948,55.9377648 -3.1774613,55.9377316</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">300242467</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.177615,55.9380093 -3.1775626,55.9379562 -3.1776347,55.9379343 -3.1776907,55.9379173 -3.177737,55.9379727 -3.177615,55.9380093</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">300242468</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1775495,55.9378448 -3.1774634,55.9378683 -3.1775469,55.937961 -3.1775626,55.9379562 -3.1776347,55.9379343 -3.1775823,55.9378793 -3.1775495,55.9378448</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">300242469</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.178006,55.9375859 -3.1780126,55.9375925 -3.1780192,55.9375992 -3.1778284,55.9376584 -3.1778141,55.9376447 -3.178006,55.9375859</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">300242470</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1764522,55.9381825 -3.176551,55.9382885 -3.1764905,55.9383059 -3.17643,55.9383233 -3.1763316,55.9382178 -3.1764522,55.9381825</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">300242471</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1780488,55.9378058 -3.1779951,55.9377505 -3.1781284,55.93771 -3.1781378,55.9377196 -3.1781658,55.9377481 -3.1781825,55.9377651 -3.1780488,55.9378058</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">300242473</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1777694,55.9380634 -3.1777714,55.9380657 -3.1776498,55.9380993 -3.1776189,55.9380642 -3.1775881,55.9380291 -3.1777097,55.9379955 -3.1777133,55.9379996 -3.1777694,55.9380634</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">300242474</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.176798,55.9379291 -3.1766715,55.9379655 -3.1766491,55.937941 -3.1765674,55.9378521 -3.1766719,55.937822 -3.1766939,55.9378157 -3.176798,55.9379291</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">300242475</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1781825,55.9377651 -3.1782004,55.9377834 -3.1782184,55.9378017 -3.1782363,55.93782 -3.1780638,55.9378725 -3.1780104,55.9378175 -3.1780488,55.9378058 -3.1781825,55.9377651</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">300242476</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1779166,55.9379471 -3.1778979,55.9379519 -3.177878,55.9379315 -3.178051,55.9378779 -3.1780851,55.9379126 -3.1781174,55.9379456 -3.178146,55.9379746 -3.177974,55.9380152 -3.1779166,55.9379471</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">300502123</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1776126,55.9376498 -3.177571,55.9376629 -3.1773378,55.937737 -3.1773946,55.9377963 -3.1774144,55.9377895 -3.1773818,55.9377574 -3.1774613,55.9377316 -3.1774948,55.9377648 -3.1776667,55.9377076 -3.1776126,55.9376498</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">300502124</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1775495,55.9378448 -3.1775823,55.9378793 -3.1777684,55.9378191 -3.1777501,55.9378004 -3.1776866,55.9378197 -3.1776683,55.9378009 -3.1777317,55.9377816 -3.1777123,55.9377617 -3.1774441,55.9378481 -3.1774634,55.9378683 -3.1775495,55.9378448</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">300502148</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1769872,55.9378935 -3.1772161,55.9381401 -3.1773928,55.9380999 -3.1771521,55.937845 -3.1770084,55.937887 -3.1769872,55.9378935</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">300502151</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1772818,55.9378071 -3.1771521,55.937845 -3.1773928,55.9380999 -3.1775719,55.9380592 -3.1773245,55.9377961 -3.1772818,55.9378071</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">300502155</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1766715,55.9379655 -3.1766491,55.937941 -3.1765985,55.937956 -3.1768438,55.9382108 -3.1768605,55.938221 -3.1770332,55.9381817 -3.176798,55.9379291 -3.1766715,55.9379655</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">300502156</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1768916,55.9378874 -3.1769023,55.937899 -3.176798,55.9379291 -3.1770332,55.9381817 -3.1772161,55.9381401 -3.1769872,55.9378935 -3.1769625,55.9378669 -3.1768916,55.9378874</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">300502160</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1778586,55.9379116 -3.1778185,55.9379239 -3.1777997,55.9379046 -3.1778398,55.9378923 -3.177822,55.9378741 -3.1776907,55.9379173 -3.177737,55.9379727 -3.177878,55.9379315 -3.1778586,55.9379116</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">300502161</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1777176,55.9377601 -3.1776667,55.9377076 -3.1774948,55.9377648 -3.177519,55.9377888 -3.1774405,55.9378151 -3.1774144,55.9377895 -3.1773946,55.9377963 -3.1774441,55.9378481 -3.1777123,55.9377617 -3.1777176,55.9377601</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">300502162</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1777697,55.9378705 -3.1777467,55.9378463 -3.1777847,55.9378359 -3.1777684,55.9378191 -3.1775823,55.9378793 -3.1776347,55.9379343 -3.1776907,55.9379173 -3.177822,55.9378741 -3.1778061,55.9378578 -3.1777697,55.9378705</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">300768063</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1778197,55.9384707 -3.1778322,55.9384701 -3.1781871,55.9383978 -3.1781791,55.9383864 -3.1782313,55.9383759 -3.1781763,55.9383101 -3.1781416,55.9383189 -3.178126,55.9383186 -3.1778339,55.9383827 -3.1777657,55.9383972 -3.1778197,55.9384707</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">300768072</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1777503,55.9382832 -3.1780902,55.9382079 -3.1780199,55.9381269 -3.177996,55.938133 -3.1776848,55.9382072 -3.1777503,55.9382832</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">300768074</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1776848,55.9382072 -3.177996,55.938133 -3.1779522,55.9380819 -3.1779287,55.9380871 -3.1776367,55.938152 -3.1776848,55.9382072</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">300768075</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1778339,55.9383827 -3.178126,55.9383186 -3.1781416,55.9383189 -3.1781763,55.9383101 -3.1781001,55.9382192 -3.1777583,55.9382942 -3.1778339,55.9383827</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">303981362</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1846768,55.9382532 -3.1846406,55.938132 -3.1848416,55.9381132 -3.1848778,55.9382344 -3.1846768,55.9382532</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">304567286</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1819722,55.9375416 -3.1822614,55.937516 -3.1822954,55.9376199 -3.1822765,55.9376324 -3.1820063,55.937657 -3.1819722,55.9375416</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">304567291</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1817124,55.9379119 -3.1817518,55.9380383 -3.1818932,55.9380249 -3.1818603,55.9379157 -3.1818384,55.9379062 -3.1818372,55.937901 -3.1817124,55.9379119</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">304567296</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1821335,55.9378568 -3.1821695,55.9378537 -3.182179,55.9378776 -3.1823787,55.9378588 -3.1823407,55.9377515 -3.1823132,55.9377397 -3.1820995,55.9377599 -3.1821009,55.9377637 -3.1821335,55.9378568</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#edinbuildings">
+		<SimpleData name="id">304567297</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>-3.1819614,55.9378726 -3.1819737,55.9378717 -3.1819743,55.9378737 -3.1821171,55.9378606 -3.1821164,55.9378583 -3.1821335,55.9378568 -3.1821009,55.9377637 -3.1819312,55.9377811 -3.1819614,55.9378726</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
