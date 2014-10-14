@@ -3,31 +3,23 @@ package com.example.murray.testapp;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
-import android.content.res.AssetManager;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.Environment;
 import android.os.RemoteException;
 import android.util.Log;
-import android.view.View;
 import android.view.ViewTreeObserver;
-import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import org.altbeacon.beacon.Beacon;
 import org.altbeacon.beacon.BeaconConsumer;
 import org.altbeacon.beacon.BeaconManager;
 import org.altbeacon.beacon.BeaconParser;
-import org.altbeacon.beacon.MonitorNotifier;
 import org.altbeacon.beacon.RangeNotifier;
 import org.altbeacon.beacon.Region;
 import org.osmdroid.DefaultResourceProxyImpl;
 import org.osmdroid.ResourceProxy;
-import org.osmdroid.api.IMapController;
 import org.osmdroid.bonuspack.kml.KmlDocument;
-import org.osmdroid.bonuspack.kml.KmlFeature;
 import org.osmdroid.bonuspack.overlays.FolderOverlay;
 import org.osmdroid.tileprovider.MapTileProviderArray;
 import org.osmdroid.tileprovider.modules.IArchiveFile;
@@ -37,16 +29,12 @@ import org.osmdroid.tileprovider.modules.MapTileModuleProviderBase;
 import org.osmdroid.tileprovider.tilesource.XYTileSource;
 import org.osmdroid.tileprovider.util.SimpleRegisterReceiver;
 import org.osmdroid.util.BoundingBoxE6;
-import org.osmdroid.util.GeoPoint;
 import org.osmdroid.views.overlay.ScaleBarOverlay;
 
 import java.io.File;
-import java.io.FileOutputStream;
-import java.io.InputStream;
-import java.io.OutputStream;
+import java.util.ArrayList;
 import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.List;
 
 /**
  * Created by murray on 25/08/14.
@@ -62,6 +50,7 @@ public class MainMapView extends Activity  implements BeaconConsumer {
     KmlDocument kmlDocument;
     FixedMapView mapView;
     Utils utils = Utils.getInstance();
+    List<BeaconGeoFence> beaconGeoFences = new ArrayList<BeaconGeoFence>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,7 +65,7 @@ public class MainMapView extends Activity  implements BeaconConsumer {
 
         kmlDocument = new KmlDocument();
 
-
+        addGeoFences();
 
         File route = utils.copyFileFromAssets(routeRow.getRouteKmlFile(), this.getAssets(), this.getPackageName());
 
@@ -205,6 +194,12 @@ public class MainMapView extends Activity  implements BeaconConsumer {
 
 
     }
+
+    private void addGeoFences() {
+        String lightBlueIbeaconMinorId = "59317";
+        BeaconGeoFence beacon = new BeaconGeoFenceImpl(3,lightBlueIbeaconMinorId);
+        beaconGeoFences.add(beacon);
+    }
     /*
     @Override
     public void onBeaconServiceConnect() {
@@ -266,6 +261,7 @@ public class MainMapView extends Activity  implements BeaconConsumer {
 
                     String lightBlueIbeacon = "8392";
 
+
                     if(lightBlueIbeacon.equals(beacon.getId3().toString())){
                         runOnUiThread(new Runnable() {
                             @Override
@@ -273,6 +269,36 @@ public class MainMapView extends Activity  implements BeaconConsumer {
                                 distanceFromBeacon.setText("Blue beacon " + beacon.getDistance() + " meters away.");
                             }
                         });
+                    }
+
+
+                    for(final BeaconGeoFence geoFence : beaconGeoFences){
+                        boolean triggered = geoFence.isGeofenceTriggered(beacon.getDistance(), beacon.getId3().toString());
+                        if(triggered){
+
+                            runOnUiThread(new Runnable() {
+
+                                @Override
+                                public void run() {
+                                    AlertDialog.Builder builder1 = new AlertDialog.Builder(MainMapView.this);
+                                    builder1.setMessage("Found " + geoFence.toString());
+                                    builder1.setCancelable(true);
+                                    builder1.setPositiveButton("Ok",
+                                            new DialogInterface.OnClickListener() {
+                                                public void onClick(DialogInterface dialog, int id) {
+                                                    dialog.cancel();
+                                                }
+                                            });
+
+
+                                    AlertDialog alert11 = builder1.create();
+                                    alert11.show();
+
+
+
+                                }
+                            });
+                        }
                     }
 
                     if(!matched && lightBlueIbeacon.equals(beacon.getId3().toString()) ){
