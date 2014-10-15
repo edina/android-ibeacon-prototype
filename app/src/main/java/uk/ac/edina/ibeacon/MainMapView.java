@@ -38,6 +38,7 @@ import java.util.List;
 
 import uk.ac.edina.ibeacon.geofence.BeaconGeoFence;
 import uk.ac.edina.ibeacon.geofence.BeaconGeoFenceImpl;
+import uk.ac.edina.ibeacon.geofence.GeoFenceAction;
 import uk.ac.edina.ibeacon.geofence.GeoFenceAlertDialogAction;
 import uk.ac.edina.ibeacon.geofence.GeoFenceHighLightRegionAction;
 import uk.ac.edina.ibeacon.geofence.GeoFenceWebActionImpl;
@@ -71,6 +72,20 @@ public class MainMapView extends Activity  implements BeaconConsumer {
         addGeoFences();
 
     }
+
+    private void addGeoFences() {
+
+        GeoFenceAction highLightEdinaMeetingRoom = new GeoFenceHighLightRegionAction(MainMapView.this, mapView);
+
+        GeoFenceAction alertDialogAction = new GeoFenceAlertDialogAction(MainMapView.this, "Enter Message", "Leave Message");
+        String printerHelpUrl = "http://www8.hp.com/uk/en/home.html";
+        GeoFenceAction showPrinterPage = new GeoFenceWebActionImpl(MainMapView.this, printerHelpUrl);
+        String lightBlueIbeaconMinorId = "59317";
+
+        BeaconGeoFence blueBeaconShowPrinterPage = new BeaconGeoFenceImpl(1,lightBlueIbeaconMinorId, highLightEdinaMeetingRoom);
+        beaconGeoFences.add(blueBeaconShowPrinterPage);
+    }
+
 
     private void setupAndDisplayMap() {
         SingleRow routeRow = (SingleRow)getIntent().getSerializableExtra(MyActivity.ROUTE_CHOSEN_KEY);
@@ -202,45 +217,7 @@ public class MainMapView extends Activity  implements BeaconConsumer {
         getActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
-    private void addGeoFences() {
-        GeoFenceHighLightRegionAction highLightEdinaMeetingRoom = new GeoFenceHighLightRegionAction(MainMapView.this, mapView);
-        GeoFenceAlertDialogAction alertDialogAction = new GeoFenceAlertDialogAction(MainMapView.this);
 
-        GeoFenceWebActionImpl showPrinterPage = new GeoFenceWebActionImpl(MainMapView.this);
-        String lightBlueIbeaconMinorId = "59317";
-        BeaconGeoFence blueBeaconShowPrinterPage = new BeaconGeoFenceImpl(1,lightBlueIbeaconMinorId, highLightEdinaMeetingRoom);
-        beaconGeoFences.add(blueBeaconShowPrinterPage);
-    }
-    /*
-    @Override
-    public void onBeaconServiceConnect() {
-        beaconManager.setMonitorNotifier(new MonitorNotifier() {
-            @Override
-            public void didEnterRegion(Region region) {
-                Log.i(TAG, "I just saw an beacon for the first time!");
-            }
-
-            @Override
-            public void didExitRegion(Region region) {
-                Log.i(TAG, "I no longer see an beacon");
-            }
-
-            @Override
-            public void didDetermineStateForRegion(int state, Region region) {
-                Log.i(TAG, "I have just switched from seeing/not seeing beacons: "+state);
-            }
-        });
-
-        try {
-            beaconManager.startMonitoringBeaconsInRegion(new Region("myMonitoringUniqueId", null, null, null));
-        } catch (RemoteException e) {  Log.e(TAG, e.toString());   }
-    }*/
-
-    public void highlightArea(){
-
-
-
-    }
 
     @Override
     public void onBeaconServiceConnect() {

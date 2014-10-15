@@ -9,15 +9,18 @@ import android.content.DialogInterface;
  */
 public class GeoFenceAlertDialogAction implements GeoFenceAction {
 
-
+    private  String enterMessage;
+    private String leaveMessage;
     private final Activity activity;
 
-    public GeoFenceAlertDialogAction(Activity activity){
+    public GeoFenceAlertDialogAction(Activity activity, String enterMessage, String leaveMessage){
         this.activity = activity;
+        this.enterMessage = enterMessage;
+        this.leaveMessage = leaveMessage;
     }
     @Override
     public void onEnter() {
-        showDialog("Entering");
+        showDialog(enterMessage);
 
     }
 
@@ -45,6 +48,6 @@ public class GeoFenceAlertDialogAction implements GeoFenceAction {
 
         @Override
     public void onLeave() {
-            showDialog("Leaving");
+            showDialog(leaveMessage);
     }
 }

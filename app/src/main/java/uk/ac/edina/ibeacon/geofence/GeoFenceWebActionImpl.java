@@ -8,14 +8,16 @@ import android.net.Uri;
  * Created by murray on 15/10/14.
  */
 public class GeoFenceWebActionImpl implements GeoFenceAction {
+    private final String url;
     private Activity activity;
 
-    public GeoFenceWebActionImpl(Activity activity){
+    public GeoFenceWebActionImpl(Activity activity, String url){
         this.activity = activity;
+        this.url = url;
     }
     @Override
     public void onEnter() {
-        String url = "http://www8.hp.com/uk/en/home.html";
+
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse(url));
         activity.startActivity(i);
