@@ -197,7 +197,7 @@ public class MainMapView extends Activity  implements BeaconConsumer {
 
     private void addGeoFences() {
         String lightBlueIbeaconMinorId = "59317";
-        BeaconGeoFence beacon = new BeaconGeoFenceImpl(3,lightBlueIbeaconMinorId);
+        BeaconGeoFence beacon = new BeaconGeoFenceImpl(1,lightBlueIbeaconMinorId);
         beaconGeoFences.add(beacon);
     }
     /*
@@ -273,15 +273,15 @@ public class MainMapView extends Activity  implements BeaconConsumer {
 
 
                     for(final BeaconGeoFence geoFence : beaconGeoFences){
-                        boolean triggered = geoFence.isGeofenceTriggered(beacon);
-                        if(triggered){
+                        final GeoFenceTrigger geoFenceTrigger = geoFence.isGeofenceTriggered(beacon);
+                        if(geoFenceTrigger.isTriggered()){
 
                             runOnUiThread(new Runnable() {
 
                                 @Override
                                 public void run() {
                                     AlertDialog.Builder builder1 = new AlertDialog.Builder(MainMapView.this);
-                                    builder1.setMessage("Found " + geoFence.toString());
+                                    builder1.setMessage(geoFenceTrigger.getStatus() +" :: " + geoFence.toString() );
                                     builder1.setCancelable(true);
                                     builder1.setPositiveButton("Ok",
                                             new DialogInterface.OnClickListener() {
