@@ -273,7 +273,7 @@ public class MainMapView extends Activity  implements BeaconConsumer {
 
 
                     for(final BeaconGeoFence geoFence : beaconGeoFences){
-                        boolean triggered = geoFence.isGeofenceTriggered(beacon.getDistance(), beacon.getId3().toString());
+                        boolean triggered = geoFence.isGeofenceTriggered(beacon);
                         if(triggered){
 
                             runOnUiThread(new Runnable() {
