@@ -1,10 +1,6 @@
 package com.example.murray.testapp;
 
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.RemoteException;
@@ -62,12 +58,18 @@ public class MainMapView extends Activity  implements BeaconConsumer {
                 setBeaconLayout(BEACON_LAYOUT_FOR_ESTIMOTE));
         beaconManager.bind(this);
 
+        setupAndDisplayMap();
+
+        addGeoFences();
+
+    }
+
+    private void setupAndDisplayMap() {
         SingleRow routeRow = (SingleRow)getIntent().getSerializableExtra(MyActivity.ROUTE_CHOSEN_KEY);
 
 
         kmlDocument = new KmlDocument();
 
-        addGeoFences();
 
         File route = utils.copyFileFromAssets(routeRow.getRouteKmlFile(), this.getAssets(), this.getPackageName());
 
@@ -108,7 +110,6 @@ public class MainMapView extends Activity  implements BeaconConsumer {
                 8, 22, 256, ".png", new String[]{"http://who.cares/"});
 
 
-
         IArchiveFile[] files = { MBTilesFileArchive.getDatabaseFileArchive(utils.getOfflineMap()) };
         SimpleRegisterReceiver sr = new SimpleRegisterReceiver(this);
 
@@ -145,14 +146,12 @@ public class MainMapView extends Activity  implements BeaconConsumer {
         buttonLayoutParams.addRule(RelativeLayout.ALIGN_PARENT_BOTTOM);
 
 
-
         relativeLayout.addView(mapView, mapViewLayoutParams);
 
         relativeLayout.addView(distanceFromBeacon,buttonLayoutParams);
         setContentView(relativeLayout);
 
         final BoundingBoxE6 bb =  kmlDocument.mKmlRoot.getBoundingBox();
-
 
 
         ScaleBarOverlay scaleBarOverlay = new ScaleBarOverlay(this);
@@ -193,14 +192,16 @@ public class MainMapView extends Activity  implements BeaconConsumer {
         //controller.zoomToSpan(boundingBoxE6.getLatitudeSpanE6(),boundingBoxE6.getLongitudeSpanE6());
         // Enable the "Up" button for more navigation options
         getActionBar().setDisplayHomeAsUpEnabled(true);
-
-
     }
 
     private void addGeoFences() {
+        GeoFenceHighLightRegionAction highLightEdinaMeetingRoom = new GeoFenceHighLightRegionAction(MainMapView.this, mapView);
+        GeoFenceAlertDialogAction alertDialogAction = new GeoFenceAlertDialogAction(MainMapView.this);
+
+        GeoFenceWebActionImpl showPrinterPage = new GeoFenceWebActionImpl(MainMapView.this);
         String lightBlueIbeaconMinorId = "59317";
-        BeaconGeoFence beacon = new BeaconGeoFenceImpl(1,lightBlueIbeaconMinorId);
-        beaconGeoFences.add(beacon);
+        BeaconGeoFence blueBeaconShowPrinterPage = new BeaconGeoFenceImpl(1,lightBlueIbeaconMinorId, highLightEdinaMeetingRoom);
+        beaconGeoFences.add(blueBeaconShowPrinterPage);
     }
     /*
     @Override
@@ -229,24 +230,7 @@ public class MainMapView extends Activity  implements BeaconConsumer {
 
     public void highlightArea(){
 
-        File route = utils.copyFileFromAssets("meetingroom.kml", this.getAssets(), this.getPackageName());
-        boolean success = kmlDocument.parseKMLFile(route);
 
-
-
-        runOnUiThread(new Runnable() {
-
-            @Override
-            public void run() {
-                final FolderOverlay kmlOverlay = (FolderOverlay) kmlDocument.mKmlRoot.buildOverlay(mapView, null, null, kmlDocument);
-                mapView.getOverlays().add(kmlOverlay);
-                final BoundingBoxE6 bb = kmlDocument.mKmlRoot.getBoundingBox();
-                mapView.getController().setZoom(22);
-                mapView.getController().animateTo(bb.getCenter());
-
-
-            }
-        });
 
     }
 
@@ -258,98 +242,15 @@ public class MainMapView extends Activity  implements BeaconConsumer {
                 if (beacons.size() > 0) {
                     final Beacon beacon = beacons.iterator().next();
 
-                    Log.i(TAG, "The first beacon I see is about "+beacon.getDistance()+" meters away.");
+                    Log.i(TAG, "The first beacon I see is about " + beacon.getDistance() + " meters away.");
                     //light light blue beacon
 
-                    String lightBlueIbeacon = "8392";
 
+                    for(final BeaconGeoFence geoFence : beaconGeoFences) {
+                        geoFence.isGeofenceTriggered(beacon);
 
-                    if(lightBlueIbeacon.equals(beacon.getId3().toString())){
-                        runOnUiThread(new Runnable() {
-                            @Override
-                            public void run() {
-                                distanceFromBeacon.setText("Blue beacon " + beacon.getDistance() + " meters away.");
-                            }
-                        });
+                        Log.d(TAG, beacon.toString());
                     }
-
-
-                    for(final BeaconGeoFence geoFence : beaconGeoFences){
-                        final GeoFenceTrigger geoFenceTrigger = geoFence.isGeofenceTriggered(beacon);
-                        if(geoFenceTrigger.isTriggered()){
-                            GeoFenceActionImpl geoFenceAction = new GeoFenceActionImpl(MainMapView.this);
-                            geoFenceAction.onEnter();
-
-                            runOnUiThread(new Runnable() {
-
-                                @Override
-                                public void run() {
-                                    AlertDialog.Builder builder1 = new AlertDialog.Builder(MainMapView.this);
-                                    builder1.setMessage(geoFenceTrigger.getStatus() +" :: " + geoFence.toString() );
-                                    builder1.setCancelable(true);
-                                    builder1.setPositiveButton("Ok",
-                                            new DialogInterface.OnClickListener() {
-                                                public void onClick(DialogInterface dialog, int id) {
-                                                    dialog.cancel();
-                                                }
-                                            });
-
-
-                                    AlertDialog alert11 = builder1.create();
-                                    alert11.show();
-
-
-                                    /*
-                                    Intent intent = new Intent();
-                                    intent.setAction(android.content.Intent.ACTION_VIEW);
-                                    File file = new File(YOUR_SONG_URI);
-                                    intent.setDataAndType(Uri.fromFile(file), "audio/*");
-                                    startActivity(intent);
-                                    */
-
-
-                                }
-                            });
-                        }
-                    }
-
-                    if(!matched && lightBlueIbeacon.equals(beacon.getId3().toString()) ){
-
-                        matched = true;
-                        //matched beacon
-                        Log.i(TAG, "Matched" );
-
-                        highlightArea();
-                        //zoom to kitchen
-
-                        runOnUiThread(new Runnable() {
-
-                            @Override
-                            public void run() {
-                                AlertDialog.Builder builder1 = new AlertDialog.Builder(MainMapView.this);
-                                builder1.setMessage("The light blue beacon I see is about " + beacon.getDistance() + " meters away.");
-                                builder1.setCancelable(true);
-                                builder1.setPositiveButton("Ok",
-                                        new DialogInterface.OnClickListener() {
-                                            public void onClick(DialogInterface dialog, int id) {
-                                                dialog.cancel();
-                                            }
-                                        });
-
-
-                                AlertDialog alert11 = builder1.create();
-                                alert11.show();
-
-
-
-                            }
-                        });
-                        /*
-
-                        */
-
-                    }
-                    Log.i(TAG, beacon.toString() );
                 }
             }
         });

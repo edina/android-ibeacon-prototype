@@ -7,10 +7,10 @@ import android.net.Uri;
 /**
  * Created by murray on 15/10/14.
  */
-public class GeoFenceActionImpl implements GeoFenceAction {
+public class GeoFenceWebActionImpl implements GeoFenceAction {
     private Activity activity;
 
-    public GeoFenceActionImpl(Activity activity){
+    public GeoFenceWebActionImpl(Activity activity){
         this.activity = activity;
     }
     @Override

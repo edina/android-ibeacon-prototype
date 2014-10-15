@@ -7,6 +7,7 @@ import org.altbeacon.beacon.Beacon;
  */
 public class BeaconGeoFenceImpl implements  BeaconGeoFence {
 
+    private final GeoFenceAction geoFenceAction;
     private double radius;
     private String minorId;
     private boolean enteredGeoFence = false;
@@ -16,12 +17,13 @@ public class BeaconGeoFenceImpl implements  BeaconGeoFence {
 
 
 
-    public BeaconGeoFenceImpl(double radius, String minorId) {
+    public BeaconGeoFenceImpl(double radius, String minorId, GeoFenceAction geoFenceAction) {
         if(minorId == null || minorId.isEmpty()){
             throw new IllegalArgumentException("Beacon minorId required");
         }
         this.radius = radius;
         this.minorId = minorId;
+        this.geoFenceAction = geoFenceAction;
     }
 
 
@@ -39,6 +41,7 @@ public class BeaconGeoFenceImpl implements  BeaconGeoFence {
             boolean enteringGeofence = distance < radius;
             if(enteringGeofence) {
                 enteredGeoFence = true;
+                geoFenceAction.onEnter();
                 return GEOFENCE_ENTERED;
             }
         }
@@ -48,6 +51,7 @@ public class BeaconGeoFenceImpl implements  BeaconGeoFence {
             boolean leavingGeofence = distance > radius;
             if(leavingGeofence) {
                 enteredGeoFence = false;
+                geoFenceAction.onLeave();
                 return GEOFENCE_LEAVING;
             }
 
