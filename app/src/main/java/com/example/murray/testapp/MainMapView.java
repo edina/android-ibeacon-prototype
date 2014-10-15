@@ -3,6 +3,8 @@ package com.example.murray.testapp;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.RemoteException;
@@ -275,6 +277,8 @@ public class MainMapView extends Activity  implements BeaconConsumer {
                     for(final BeaconGeoFence geoFence : beaconGeoFences){
                         final GeoFenceTrigger geoFenceTrigger = geoFence.isGeofenceTriggered(beacon);
                         if(geoFenceTrigger.isTriggered()){
+                            GeoFenceActionImpl geoFenceAction = new GeoFenceActionImpl(MainMapView.this);
+                            geoFenceAction.onEnter();
 
                             runOnUiThread(new Runnable() {
 
@@ -294,6 +298,14 @@ public class MainMapView extends Activity  implements BeaconConsumer {
                                     AlertDialog alert11 = builder1.create();
                                     alert11.show();
 
+
+                                    /*
+                                    Intent intent = new Intent();
+                                    intent.setAction(android.content.Intent.ACTION_VIEW);
+                                    File file = new File(YOUR_SONG_URI);
+                                    intent.setDataAndType(Uri.fromFile(file), "audio/*");
+                                    startActivity(intent);
+                                    */
 
 
                                 }
