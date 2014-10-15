@@ -1,4 +1,4 @@
-package com.example.murray.testapp;
+package uk.ac.edina.ibeacon.geofence;
 
 import org.altbeacon.beacon.Beacon;
 

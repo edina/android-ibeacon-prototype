@@ -22,7 +22,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MyActivity"
+            android:name="uk.ac.edina.ibeacon.MyActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,9 +31,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainMapView"
+            android:name="uk.ac.edina.ibeacon.MainMapView"
             android:label="@string/activity_details"
-            android:parentActivityName=".MyActivity">
+            android:parentActivityName="uk.ac.edina.ibeacon.MyActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MyActivity"/>

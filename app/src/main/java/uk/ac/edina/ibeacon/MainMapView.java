@@ -1,4 +1,4 @@
-package com.example.murray.testapp;
+package uk.ac.edina.ibeacon;
 
 import android.app.Activity;
 import android.os.Build;
@@ -8,6 +8,8 @@ import android.util.Log;
 import android.view.ViewTreeObserver;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import com.example.murray.testapp.R;
 
 import org.altbeacon.beacon.Beacon;
 import org.altbeacon.beacon.BeaconConsumer;
@@ -33,6 +35,12 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+
+import uk.ac.edina.ibeacon.geofence.BeaconGeoFence;
+import uk.ac.edina.ibeacon.geofence.BeaconGeoFenceImpl;
+import uk.ac.edina.ibeacon.geofence.GeoFenceAlertDialogAction;
+import uk.ac.edina.ibeacon.geofence.GeoFenceHighLightRegionAction;
+import uk.ac.edina.ibeacon.geofence.GeoFenceWebActionImpl;
 
 /**
  * Created by murray on 25/08/14.

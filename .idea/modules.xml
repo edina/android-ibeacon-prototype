@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TestApp.iml" filepath="$PROJECT_DIR$/TestApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-ibeacon-prototype.iml" filepath="$PROJECT_DIR$/android-ibeacon-prototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/iBeacons.iml" filepath="$PROJECT_DIR$/iBeacons.iml" />
     </modules>

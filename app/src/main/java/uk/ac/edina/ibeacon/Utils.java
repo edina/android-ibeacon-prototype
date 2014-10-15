@@ -1,4 +1,4 @@
-package com.example.murray.testapp;
+package uk.ac.edina.ibeacon;
 
 import android.content.res.AssetManager;
 import android.os.Environment;

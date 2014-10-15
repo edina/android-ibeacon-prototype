@@ -1,4 +1,4 @@
-package com.example.murray.testapp;
+package uk.ac.edina.ibeacon.geofence;
 
 /**
  * Created by murray on 15/10/14.

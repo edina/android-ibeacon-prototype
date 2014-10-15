@@ -1,4 +1,4 @@
-package com.example.murray.testapp;
+package uk.ac.edina.ibeacon.geofence;
 
 import android.app.Activity;
 
@@ -8,6 +8,8 @@ import org.osmdroid.util.BoundingBoxE6;
 import org.osmdroid.views.MapView;
 
 import java.io.File;
+
+import uk.ac.edina.ibeacon.Utils;
 
 /**
  * Created by murray on 15/10/14.

@@ -1,4 +1,4 @@
-package com.example.murray.testapp;
+package uk.ac.edina.ibeacon;
 
 import java.util.Timer;
 import java.util.TimerTask;
