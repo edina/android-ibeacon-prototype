@@ -1,4 +1,4 @@
-package uk.ac.edina.ibeacon.geofence;
+package uk.ac.edina.ibeacon.geofence.states;
 
 import org.altbeacon.beacon.Beacon;
 

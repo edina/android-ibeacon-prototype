@@ -1,8 +1,10 @@
-package uk.ac.edina.ibeacon.geofence;
+package uk.ac.edina.ibeacon.geofence.states;
 
 import android.util.Log;
 
 import org.altbeacon.beacon.Beacon;
+
+import uk.ac.edina.ibeacon.geofence.BeaconGeoFence;
 
 /**
  * Created by murrayking on 20/10/2014.

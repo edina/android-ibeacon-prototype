@@ -39,10 +39,10 @@ import java.util.Comparator;
 import java.util.List;
 
 import uk.ac.edina.ibeacon.geofence.BeaconGeoFence;
-import uk.ac.edina.ibeacon.geofence.GeoFenceAction;
-import uk.ac.edina.ibeacon.geofence.GeoFenceAlertDialogAction;
-import uk.ac.edina.ibeacon.geofence.GeoFenceHighLightRegionAction;
-import uk.ac.edina.ibeacon.geofence.GeoFenceWebActionImpl;
+import uk.ac.edina.ibeacon.geofence.actions.GeoFenceAction;
+import uk.ac.edina.ibeacon.geofence.actions.GeoFenceAlertDialogAction;
+import uk.ac.edina.ibeacon.geofence.actions.GeoFenceHighLightRegionAction;
+import uk.ac.edina.ibeacon.geofence.actions.GeoFenceWebActionImpl;
 
 /**
  * Created by murray on 25/08/14.

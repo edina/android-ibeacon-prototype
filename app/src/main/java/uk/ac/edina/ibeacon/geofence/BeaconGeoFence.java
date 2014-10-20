@@ -2,6 +2,11 @@ package uk.ac.edina.ibeacon.geofence;
 
 import org.altbeacon.beacon.Beacon;
 
+import uk.ac.edina.ibeacon.geofence.actions.GeoFenceAction;
+import uk.ac.edina.ibeacon.geofence.states.BeaconGeoFenceState;
+import uk.ac.edina.ibeacon.geofence.states.GeoFenceInsideState;
+import uk.ac.edina.ibeacon.geofence.states.GeoFenceOutsideState;
+
 /**
  * Created by murray on 14/10/14.
  */
