@@ -10,7 +10,6 @@ import org.osmdroid.views.MapView;
 import java.io.File;
 
 import uk.ac.edina.ibeacon.Utils;
-import uk.ac.edina.ibeacon.geofence.actions.GeoFenceAction;
 
 /**
  * Created by murray on 15/10/14.
