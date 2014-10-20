@@ -33,7 +33,10 @@
         <activity
             android:name="uk.ac.edina.ibeacon.MainMapView"
             android:label="@string/activity_details"
-            android:parentActivityName="uk.ac.edina.ibeacon.MyActivity">
+            android:parentActivityName="uk.ac.edina.ibeacon.MyActivity"
+            android:screenOrientation="portrait"
+            >
+
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MyActivity"/>

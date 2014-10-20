@@ -7,5 +7,5 @@ import org.altbeacon.beacon.Beacon;
  */
 public interface BeaconGeoFenceState {
 
-    void isGeofenceTriggered(Beacon beacon);
+    void evaluateGeofence(Beacon beacon);
 }

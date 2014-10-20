@@ -15,7 +15,7 @@ public class GeoFenceOutsideState implements BeaconGeoFenceState {
     }
 
     @Override
-    public void isGeofenceTriggered(Beacon beacon) {
+    public void evaluateGeofence(Beacon beacon) {
         String id = beacon.getId3().toString();
 
         if( !beaconGeoFence.getMinorId().equals(id)){

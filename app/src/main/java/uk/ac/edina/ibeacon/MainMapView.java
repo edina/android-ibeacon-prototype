@@ -34,6 +34,8 @@ import org.osmdroid.views.overlay.ScaleBarOverlay;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 import uk.ac.edina.ibeacon.geofence.BeaconGeoFence;
@@ -73,7 +75,7 @@ public class MainMapView extends Activity  implements BeaconConsumer {
     }
 
     private void addGeoFences() {
-
+        /*
         GeoFenceAction highLightEdinaMeetingRoom = new GeoFenceHighLightRegionAction(MainMapView.this, mapView);
 
         GeoFenceAction alertDialogAction = new GeoFenceAlertDialogAction(MainMapView.this, "Enter Message", "Leave Message");
@@ -83,6 +85,26 @@ public class MainMapView extends Activity  implements BeaconConsumer {
 
         BeaconGeoFence blueBeaconShowPrinterPage = new BeaconGeoFence(1,lightBlueIbeaconMinorId, alertDialogAction);
         beaconGeoFences.add(blueBeaconShowPrinterPage);
+        */
+
+        GeoFenceAction highlightEdinaMeetingRoom = new GeoFenceHighLightRegionAction(MainMapView.this, mapView);
+
+        GeoFenceAction alertDialogWelcome = new GeoFenceAlertDialogAction(MainMapView.this, "Welcome to EDINA", "Don't forget to leave FOB at reception!");
+        GeoFenceAction alertDialogPrinter = new GeoFenceAlertDialogAction(MainMapView.this, "Printer CSCH2a", "Bye bye Printer");
+        String printerHelpUrl = "http://www.okidata.com/printers/color/c830";
+        GeoFenceAction showPrinterPage = new GeoFenceWebActionImpl(MainMapView.this, printerHelpUrl);
+        String lightBlueBeaconMinorId = "59317";
+        String blueberryBeaconMinorId = "24489";
+        String mintBeaconMinorId = "11097";
+
+        BeaconGeoFence blueBeaconHighlightMeetingRoom = new BeaconGeoFence(1.0,lightBlueBeaconMinorId, highlightEdinaMeetingRoom);
+        BeaconGeoFence blueberryBeaconPrinter = new BeaconGeoFence(1,blueberryBeaconMinorId, alertDialogPrinter);
+        BeaconGeoFence mintBeaconAlert = new BeaconGeoFence(1,mintBeaconMinorId, alertDialogWelcome);
+        beaconGeoFences.add(blueberryBeaconPrinter) ;
+        beaconGeoFences.add(blueBeaconHighlightMeetingRoom) ;
+        beaconGeoFences.add(mintBeaconAlert) ;
+
+
     }
 
 
@@ -170,7 +192,7 @@ public class MainMapView extends Activity  implements BeaconConsumer {
 
         relativeLayout.addView(mapView, mapViewLayoutParams);
 
-        //relativeLayout.addView(distanceFromBeacon,buttonLayoutParams);
+        relativeLayout.addView(distanceFromBeacon,buttonLayoutParams);
         setContentView(relativeLayout);
 
         final BoundingBoxE6 bb =  kmlDocument.mKmlRoot.getBoundingBox();
@@ -228,11 +250,41 @@ public class MainMapView extends Activity  implements BeaconConsumer {
                     for( Beacon beacon: beacons) {
 
                         for (final BeaconGeoFence geoFence : beaconGeoFences) {
-                            geoFence.isGeofenceTriggered(beacon);
+                            geoFence.evaluateGeofence(beacon);
 
                             Log.d(TAG, beacon.toString());
+
+
                         }
                     }
+
+                    /**************************** debug to display *******************/
+
+                    final StringBuilder debug = new StringBuilder();
+
+                    List<Beacon> sortedBeaconsByDistance = new ArrayList<Beacon>(beacons);
+
+                    Collections.sort(sortedBeaconsByDistance, new Comparator<Beacon>() {
+                        @Override
+                        public int compare(Beacon beacon, Beacon beacon2) {
+                            double test = beacon.getDistance()  - beacon2.getDistance() ;
+                            return (int) Math.round(test*100);
+                        }
+                    });
+
+
+                    for(Beacon b : sortedBeaconsByDistance) {
+                        debug.append(b.getId3()).append(": dis : ").append(b.getDistance()).append("\n");
+                    }
+                    MainMapView.this.runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            distanceFromBeacon.setText(debug.toString());
+                        }
+                    });
+
+
+                    /**************************** end debug to display *******************/
                 }
             }
         });

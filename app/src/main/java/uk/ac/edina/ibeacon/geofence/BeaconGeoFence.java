@@ -31,8 +31,8 @@ public class BeaconGeoFence  {
     }
 
 
-    public void isGeofenceTriggered(Beacon beacon) {
-        currentState.isGeofenceTriggered(beacon);
+    public void evaluateGeofence(Beacon beacon) {
+        currentState.evaluateGeofence(beacon);
     }
 
     public void setCurrentState(BeaconGeoFenceState currentState) {
