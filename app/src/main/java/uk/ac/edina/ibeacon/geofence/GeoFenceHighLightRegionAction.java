@@ -54,6 +54,13 @@ public class GeoFenceHighLightRegionAction implements  GeoFenceAction {
 
     @Override
     public void onLeave() {
+            activity.runOnUiThread(new Runnable() {
 
+                @Override
+                public void run() {
+                    mapView.getController().setZoom(18);
+
+                }
+            });
     }
 }
