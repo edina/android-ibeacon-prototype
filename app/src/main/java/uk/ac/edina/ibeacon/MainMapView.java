@@ -90,6 +90,7 @@ public class MainMapView extends Activity  implements BeaconConsumer {
 
         GeoFenceAction highlightEdinaMeetingRoom = new GeoFenceHighLightRegionAction(MainMapView.this, mapView);
         GeoFenceAction geoFenceAudioAction = new GeoFenceAudioAction(MainMapView.this, "chime.mp3");
+        GeoFenceAction geoFenceAudioAction2 = new GeoFenceAudioAction(MainMapView.this, "notificationdetect.mp3");
         GeoFenceAction alertDialogWelcome = new GeoFenceAlertDialogAction(MainMapView.this, "Welcome to EDINA", "Don't forget to leave FOB at reception!");
         GeoFenceAction alertDialogPrinter = new GeoFenceAlertDialogAction(MainMapView.this, "Printer CSCH2a", "Bye bye Printer");
         String printerHelpUrl = "http://www.okidata.com/printers/color/c830";
@@ -101,10 +102,14 @@ public class MainMapView extends Activity  implements BeaconConsumer {
         BeaconGeoFence blueBeaconHighlightMeetingRoom = new BeaconGeoFence(1.5,lightBlueBeaconMinorId, highlightEdinaMeetingRoom);
         BeaconGeoFence blueberryBeaconPrinter = new BeaconGeoFence(1.5,blueberryBeaconMinorId, alertDialogPrinter);
         BeaconGeoFence mintBeaconAlert = new BeaconGeoFence(1.5,mintBeaconMinorId, alertDialogWelcome);
-        BeaconGeoFence blueBeaconAudioAction = new BeaconGeoFence(1.0,lightBlueBeaconMinorId, geoFenceAudioAction);
+        BeaconGeoFence blueBeaconAudioAction = new BeaconGeoFence(1.5,lightBlueBeaconMinorId, geoFenceAudioAction2);
+        BeaconGeoFence mintBeaconAudioAction = new BeaconGeoFence(1.5,mintBeaconMinorId, geoFenceAudioAction);
+        BeaconGeoFence blueberryBeaconAudioAction = new BeaconGeoFence(1.5,blueberryBeaconMinorId, geoFenceAudioAction2);
         beaconGeoFences.add(blueberryBeaconPrinter) ;
         beaconGeoFences.add(blueBeaconHighlightMeetingRoom) ;
-        beaconGeoFences.add(blueBaconAudioAction) ;
+        beaconGeoFences.add(blueBeaconAudioAction) ;
+        beaconGeoFences.add(blueberryBeaconAudioAction) ;
+        beaconGeoFences.add(mintBeaconAudioAction) ;
         beaconGeoFences.add(mintBeaconAlert) ;
 
     }
