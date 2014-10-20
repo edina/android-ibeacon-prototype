@@ -97,9 +97,9 @@ public class MainMapView extends Activity  implements BeaconConsumer {
         String blueberryBeaconMinorId = "24489";
         String mintBeaconMinorId = "11097";
 
-        BeaconGeoFence blueBeaconHighlightMeetingRoom = new BeaconGeoFence(1.0,lightBlueBeaconMinorId, highlightEdinaMeetingRoom);
-        BeaconGeoFence blueberryBeaconPrinter = new BeaconGeoFence(1,blueberryBeaconMinorId, alertDialogPrinter);
-        BeaconGeoFence mintBeaconAlert = new BeaconGeoFence(1,mintBeaconMinorId, alertDialogWelcome);
+        BeaconGeoFence blueBeaconHighlightMeetingRoom = new BeaconGeoFence(1.5,lightBlueBeaconMinorId, highlightEdinaMeetingRoom);
+        BeaconGeoFence blueberryBeaconPrinter = new BeaconGeoFence(1.5,blueberryBeaconMinorId, alertDialogPrinter);
+        BeaconGeoFence mintBeaconAlert = new BeaconGeoFence(1.5,mintBeaconMinorId, alertDialogWelcome);
         beaconGeoFences.add(blueberryBeaconPrinter) ;
         beaconGeoFences.add(blueBeaconHighlightMeetingRoom) ;
         beaconGeoFences.add(mintBeaconAlert) ;
