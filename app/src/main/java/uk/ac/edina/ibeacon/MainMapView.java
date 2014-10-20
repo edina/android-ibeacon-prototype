@@ -37,7 +37,6 @@ import java.util.Collection;
 import java.util.List;
 
 import uk.ac.edina.ibeacon.geofence.BeaconGeoFence;
-import uk.ac.edina.ibeacon.geofence.BeaconGeoFenceImpl;
 import uk.ac.edina.ibeacon.geofence.GeoFenceAction;
 import uk.ac.edina.ibeacon.geofence.GeoFenceAlertDialogAction;
 import uk.ac.edina.ibeacon.geofence.GeoFenceHighLightRegionAction;
@@ -82,7 +81,7 @@ public class MainMapView extends Activity  implements BeaconConsumer {
         GeoFenceAction showPrinterPage = new GeoFenceWebActionImpl(MainMapView.this, printerHelpUrl);
         String lightBlueIbeaconMinorId = "59317";
 
-        BeaconGeoFence blueBeaconShowPrinterPage = new BeaconGeoFenceImpl(1,lightBlueIbeaconMinorId, highLightEdinaMeetingRoom);
+        BeaconGeoFence blueBeaconShowPrinterPage = new BeaconGeoFence(1,lightBlueIbeaconMinorId, alertDialogAction);
         beaconGeoFences.add(blueBeaconShowPrinterPage);
     }
 
@@ -171,7 +170,7 @@ public class MainMapView extends Activity  implements BeaconConsumer {
 
         relativeLayout.addView(mapView, mapViewLayoutParams);
 
-        relativeLayout.addView(distanceFromBeacon,buttonLayoutParams);
+        //relativeLayout.addView(distanceFromBeacon,buttonLayoutParams);
         setContentView(relativeLayout);
 
         final BoundingBoxE6 bb =  kmlDocument.mKmlRoot.getBoundingBox();
@@ -225,16 +224,14 @@ public class MainMapView extends Activity  implements BeaconConsumer {
             @Override
             public void didRangeBeaconsInRegion(Collection<Beacon> beacons, Region region) {
                 if (beacons.size() > 0) {
-                    final Beacon beacon = beacons.iterator().next();
 
-                    Log.i(TAG, "The first beacon I see is about " + beacon.getDistance() + " meters away.");
-                    //light light blue beacon
+                    for( Beacon beacon: beacons) {
 
+                        for (final BeaconGeoFence geoFence : beaconGeoFences) {
+                            geoFence.isGeofenceTriggered(beacon);
 
-                    for(final BeaconGeoFence geoFence : beaconGeoFences) {
-                        geoFence.isGeofenceTriggered(beacon);
-
-                        Log.d(TAG, beacon.toString());
+                            Log.d(TAG, beacon.toString());
+                        }
                     }
                 }
             }
