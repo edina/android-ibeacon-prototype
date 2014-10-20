@@ -1,4 +1,4 @@
-package uk.ac.edina.ibeacon.geofence;
+package uk.ac.edina.ibeacon.geofence.actions;
 
 import android.app.Activity;
 import android.app.AlertDialog;

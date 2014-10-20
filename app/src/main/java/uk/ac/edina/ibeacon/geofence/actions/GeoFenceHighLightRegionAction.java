@@ -1,4 +1,4 @@
-package uk.ac.edina.ibeacon.geofence;
+package uk.ac.edina.ibeacon.geofence.actions;
 
 import android.app.Activity;
 
@@ -14,7 +14,7 @@ import uk.ac.edina.ibeacon.Utils;
 /**
  * Created by murray on 15/10/14.
  */
-public class GeoFenceHighLightRegionAction implements  GeoFenceAction {
+public class GeoFenceHighLightRegionAction implements GeoFenceAction {
     private final MapView mapView;
     private Activity activity;
     Utils utils = Utils.getInstance();
@@ -54,13 +54,13 @@ public class GeoFenceHighLightRegionAction implements  GeoFenceAction {
 
     @Override
     public void onLeave() {
-            activity.runOnUiThread(new Runnable() {
+        activity.runOnUiThread(new Runnable() {
 
-                @Override
-                public void run() {
-                    mapView.getController().setZoom(18);
+            @Override
+            public void run() {
+                mapView.getController().setZoom(18);
 
-                }
-            });
+            }
+        });
     }
 }

@@ -1,4 +1,4 @@
-package uk.ac.edina.ibeacon.geofence;
+package uk.ac.edina.ibeacon.geofence.actions;
 
 /**
  * Created by murray on 15/10/14.
