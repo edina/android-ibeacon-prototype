@@ -2,8 +2,6 @@ package uk.ac.edina.ibeacon.geofence.states;
 
 import android.util.Log;
 
-import org.altbeacon.beacon.Beacon;
-
 import uk.ac.edina.ibeacon.geofence.BeaconGeoFence;
 
 /**
@@ -17,13 +15,13 @@ public class GeoFenceOutsideState implements BeaconGeoFenceState {
     }
 
     @Override
-    public void evaluateGeofence(Beacon beacon) {
-        String id = beacon.getId3().toString();
+    public void evaluateGeofence(String id, double distance) {
+
 
         if( !beaconGeoFence.getMinorId().equals(id)){
             return;
         }
-        double distance = beacon.getDistance();
+
         boolean enteringGeofence = distance < beaconGeoFence.getRadius();
 
         Log.d("BeaconGeoFenceState", "Distance Outside" + distance);

@@ -9,8 +9,6 @@ import android.view.ViewTreeObserver;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.example.murray.testapp.R;
-
 import org.altbeacon.beacon.Beacon;
 import org.altbeacon.beacon.BeaconConsumer;
 import org.altbeacon.beacon.BeaconManager;
@@ -43,7 +41,7 @@ import uk.ac.edina.ibeacon.geofence.actions.GeoFenceAction;
 import uk.ac.edina.ibeacon.geofence.actions.GeoFenceAlertDialogAction;
 import uk.ac.edina.ibeacon.geofence.actions.GeoFenceAudioAction;
 import uk.ac.edina.ibeacon.geofence.actions.GeoFenceHighLightRegionAction;
-import uk.ac.edina.ibeacon.geofence.actions.GeoFenceWebActionImpl;
+import uk.ac.edina.ibeacon.geofence.actions.GeoFenceWebAction;
 
 /**
  * Created by murray on 25/08/14.
@@ -81,7 +79,7 @@ public class MainMapView extends Activity  implements BeaconConsumer {
 
         GeoFenceAction alertDialogAction = new GeoFenceAlertDialogAction(MainMapView.this, "Enter Message", "Leave Message");
         String printerHelpUrl = "http://www8.hp.com/uk/en/home.html";
-        GeoFenceAction showPrinterPage = new GeoFenceWebActionImpl(MainMapView.this, printerHelpUrl);
+        GeoFenceAction showPrinterPage = new GeoFenceWebAction(MainMapView.this, printerHelpUrl);
         String lightBlueIbeaconMinorId = "59317";
 
         BeaconGeoFence blueBeaconShowPrinterPage = new BeaconGeoFence(1,lightBlueIbeaconMinorId, alertDialogAction);
@@ -94,7 +92,7 @@ public class MainMapView extends Activity  implements BeaconConsumer {
         GeoFenceAction alertDialogWelcome = new GeoFenceAlertDialogAction(MainMapView.this, "Welcome to EDINA", "Don't forget to leave FOB at reception!");
         GeoFenceAction alertDialogPrinter = new GeoFenceAlertDialogAction(MainMapView.this, "Printer CSCH2a", "Bye bye Printer");
         String printerHelpUrl = "http://www.okidata.com/printers/color/c830";
-        GeoFenceAction showPrinterPage = new GeoFenceWebActionImpl(MainMapView.this, printerHelpUrl);
+        GeoFenceAction showPrinterPage = new GeoFenceWebAction(MainMapView.this, printerHelpUrl);
         String lightBlueBeaconMinorId = "59317";
         String blueberryBeaconMinorId = "24489";
         String mintBeaconMinorId = "11097";
@@ -257,7 +255,8 @@ public class MainMapView extends Activity  implements BeaconConsumer {
                     for( Beacon beacon: beacons) {
 
                         for (final BeaconGeoFence geoFence : beaconGeoFences) {
-                            geoFence.evaluateGeofence(beacon);
+
+                            geoFence.evaluateGeofence(beacon.getId3().toString(), beacon.getDistance());
 
                             Log.d(TAG, beacon.toString());
 

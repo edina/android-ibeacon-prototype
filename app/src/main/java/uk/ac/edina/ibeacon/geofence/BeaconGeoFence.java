@@ -1,7 +1,5 @@
 package uk.ac.edina.ibeacon.geofence;
 
-import org.altbeacon.beacon.Beacon;
-
 import uk.ac.edina.ibeacon.geofence.actions.GeoFenceAction;
 import uk.ac.edina.ibeacon.geofence.states.BeaconGeoFenceState;
 import uk.ac.edina.ibeacon.geofence.states.GeoFenceInsideState;
@@ -24,7 +22,7 @@ public class BeaconGeoFence  {
 
 
     public BeaconGeoFence(double radius, String minorId, GeoFenceAction geoFenceAction) {
-        if(minorId == null || minorId.isEmpty()){
+        if(minorId == null || minorId.isEmpty() || radius < 0){
             throw new IllegalArgumentException("Beacon minorId required");
         }
         this.radius = radius;
@@ -36,12 +34,17 @@ public class BeaconGeoFence  {
     }
 
 
-    public void evaluateGeofence(Beacon beacon) {
-        currentState.evaluateGeofence(beacon);
+    public void evaluateGeofence(String id, double distance) {
+
+        currentState.evaluateGeofence(id, distance);
     }
 
     public void setCurrentState(BeaconGeoFenceState currentState) {
         this.currentState = currentState;
+    }
+
+    public BeaconGeoFenceState getCurrentState() {
+        return currentState;
     }
 
     public double getRadius() {

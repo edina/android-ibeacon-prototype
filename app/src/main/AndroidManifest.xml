@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.murray.testapp" >
+    package="uk.ac.edina.ibeacon" >
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
@@ -22,7 +22,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="uk.ac.edina.ibeacon.MyActivity"
+            android:name=".MyActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,9 +31,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="uk.ac.edina.ibeacon.MainMapView"
+            android:name=".MainMapView"
             android:label="@string/activity_details"
-            android:parentActivityName="uk.ac.edina.ibeacon.MyActivity"
+            android:parentActivityName=".MyActivity"
             android:screenOrientation="portrait"
             >
 

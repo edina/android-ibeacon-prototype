@@ -7,11 +7,11 @@ import android.net.Uri;
 /**
  * Created by murray on 15/10/14.
  */
-public class GeoFenceWebActionImpl implements GeoFenceAction {
+public class GeoFenceWebAction implements GeoFenceAction {
     private final String url;
     private Activity activity;
 
-    public GeoFenceWebActionImpl(Activity activity, String url){
+    public GeoFenceWebAction(Activity activity, String url){
         this.activity = activity;
         this.url = url;
     }

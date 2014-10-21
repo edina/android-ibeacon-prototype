@@ -15,8 +15,6 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.example.murray.testapp.R;
-
 import java.io.Serializable;
 import java.util.ArrayList;
 
@@ -28,7 +26,9 @@ public class MyActivity extends Activity implements  AdapterView.OnItemClickList
     public static final String ROUTE_CHOSEN_KEY = "ROUTE_CHOSEN_KEY";
 
     private Utils utils = Utils.getInstance();
-
+    public static int add(int a, int b) {
+        return a + b;
+    }
     ListView listView;
     MyAdapter adapter;
 
@@ -163,7 +163,7 @@ class  MyAdapter extends BaseAdapter{
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View row = inflater.inflate(R.layout.row_layout, viewGroup,false);
+        View row = inflater.inflate(R.layout.row_layout, viewGroup, false);
         TextView title = (TextView) row.findViewById(R.id.textTitle);
         TextView description = (TextView) row.findViewById(R.id.textDescription);
         ImageView imageView = (ImageView)row.findViewById(R.id.img_thumbnail);
