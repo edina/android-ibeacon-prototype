@@ -22,7 +22,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MyActivity"
+            android:name=".ChooseFloorPlan"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,7 +33,7 @@
         <activity
             android:name=".MainMapView"
             android:label="@string/activity_details"
-            android:parentActivityName=".MyActivity"
+            android:parentActivityName=".ChooseFloorPlan"
             android:screenOrientation="portrait"
             >
 

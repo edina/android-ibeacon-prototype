@@ -37,6 +37,7 @@ import java.util.Comparator;
 import java.util.List;
 
 import uk.ac.edina.ibeacon.geofence.BeaconGeoFence;
+import uk.ac.edina.ibeacon.geofence.BeaconWrapper;
 import uk.ac.edina.ibeacon.geofence.actions.GeoFenceAction;
 import uk.ac.edina.ibeacon.geofence.actions.GeoFenceAlertDialogAction;
 import uk.ac.edina.ibeacon.geofence.actions.GeoFenceAudioAction;
@@ -114,7 +115,7 @@ public class MainMapView extends Activity  implements BeaconConsumer {
 
 
     private void setupAndDisplayMap() {
-        SingleRow routeRow = (SingleRow)getIntent().getSerializableExtra(MyActivity.ROUTE_CHOSEN_KEY);
+        SingleRow routeRow = (SingleRow)getIntent().getSerializableExtra(ChooseFloorPlan.ROUTE_CHOSEN_KEY);
 
 
         kmlDocument = new KmlDocument();
@@ -256,7 +257,7 @@ public class MainMapView extends Activity  implements BeaconConsumer {
 
                         for (final BeaconGeoFence geoFence : beaconGeoFences) {
 
-                            geoFence.evaluateGeofence(beacon.getId3().toString(), beacon.getDistance());
+                            geoFence.evaluateGeofence(new BeaconWrapper(beacon));
 
                             Log.d(TAG, beacon.toString());
 

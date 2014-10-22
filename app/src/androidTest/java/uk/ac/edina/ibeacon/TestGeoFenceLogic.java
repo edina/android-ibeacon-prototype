@@ -6,6 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import uk.ac.edina.ibeacon.geofence.BeaconGeoFence;
+import uk.ac.edina.ibeacon.geofence.IBeacon;
 import uk.ac.edina.ibeacon.geofence.actions.GeoFenceAction;
 
 
@@ -18,6 +19,8 @@ public class TestGeoFenceLogic extends TestCase {
     boolean onLeaveActionCalled;
     String beaconMinorId = "11097";
     double radius = 1.5;
+
+
 
     @Override
     @Before
@@ -39,6 +42,7 @@ public class TestGeoFenceLogic extends TestCase {
                 onLeaveActionCalled = true;
             }
         };
+
         beaconGeoFence = new BeaconGeoFence(radius, beaconMinorId,geoFenceAction);
 
     }
@@ -55,7 +59,7 @@ public class TestGeoFenceLogic extends TestCase {
         assertFalse(onEnterActionCalled);
 
         assertEquals("Initial state is outside geofence", beaconGeoFence.getOutsideGeoFence(), beaconGeoFence.getCurrentState());
-        beaconGeoFence.evaluateGeofence(beaconMinorId, radius - 0.1);
+        beaconGeoFence.evaluateGeofence(new MockBeacon(beaconMinorId, radius - 0.1));
 
         assertEquals("Should be inside", beaconGeoFence.getInsideGeoFence(), beaconGeoFence.getCurrentState());
         assertTrue("onEnterActionCalled", onEnterActionCalled);
@@ -68,18 +72,50 @@ public class TestGeoFenceLogic extends TestCase {
 
         assertEquals("Initial state is outside geofence", beaconGeoFence.getOutsideGeoFence(), beaconGeoFence.getCurrentState());
 
-        beaconGeoFence.evaluateGeofence(beaconMinorId, radius + 0.1);
+        beaconGeoFence.evaluateGeofence(new MockBeacon(beaconMinorId, radius + 0.1));
 
         assertEquals("Should be outside", beaconGeoFence.getOutsideGeoFence(), beaconGeoFence.getCurrentState());
         assertFalse("onenter shouldn't be called yet", onEnterActionCalled);
 
-        beaconGeoFence.evaluateGeofence(beaconMinorId, radius - 0.1);
+        beaconGeoFence.evaluateGeofence(new MockBeacon(beaconMinorId, radius - 0.1));
         assertTrue("onEnterActionCalled", onEnterActionCalled);
 
         assertEquals("Should be inside again", beaconGeoFence.getInsideGeoFence(), beaconGeoFence.getCurrentState());
-        beaconGeoFence.evaluateGeofence(beaconMinorId, radius + 0.1);
+        beaconGeoFence.evaluateGeofence(new MockBeacon(beaconMinorId, radius + 0.1));
         assertTrue("onLeaveActionCalled", onLeaveActionCalled);
 
+    }
+
+    private static class MockBeacon implements IBeacon{
+        double distance;
+        int rssi;
+        int txPower;
+        String minorId;
+
+        private MockBeacon(String minorId, double distance) {
+            this.distance = distance;
+            this.minorId = minorId;
+        }
+
+        @Override
+        public double getDistance() {
+            return distance;
+        }
+
+        @Override
+        public int getRssi() {
+            return 0;
+        }
+
+        @Override
+        public int getTxPower() {
+            return 0;
+        }
+
+        @Override
+        public String getMinorId() {
+            return minorId;
+        }
     }
 
 

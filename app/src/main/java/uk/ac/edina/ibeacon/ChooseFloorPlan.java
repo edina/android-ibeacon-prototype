@@ -18,7 +18,7 @@ import android.widget.TextView;
 import java.io.Serializable;
 import java.util.ArrayList;
 
-public class MyActivity extends Activity implements  AdapterView.OnItemClickListener {
+public class ChooseFloorPlan extends Activity implements  AdapterView.OnItemClickListener {
     private static final String MAP_DB_NAME = "edina1.mbtiles";
 
 
@@ -26,11 +26,9 @@ public class MyActivity extends Activity implements  AdapterView.OnItemClickList
     public static final String ROUTE_CHOSEN_KEY = "ROUTE_CHOSEN_KEY";
 
     private Utils utils = Utils.getInstance();
-    public static int add(int a, int b) {
-        return a + b;
-    }
+
     ListView listView;
-    MyAdapter adapter;
+    FloorPlanChooserAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +37,7 @@ public class MyActivity extends Activity implements  AdapterView.OnItemClickList
 
         // 1. Access the TextView defined in layout XML
         // and then set its text
-        adapter = new MyAdapter(this);
+        adapter = new FloorPlanChooserAdapter(this);
         listView = (ListView) findViewById(R.id.listView);
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(this);
@@ -48,7 +46,7 @@ public class MyActivity extends Activity implements  AdapterView.OnItemClickList
         new Thread(new Runnable() {
             public void run() {
 
-                utils.copyOfflineMap(MAP_DB_NAME, MyActivity.this.getAssets(), MyActivity.this.getPackageName());
+                utils.copyOfflineMap(MAP_DB_NAME, ChooseFloorPlan.this.getAssets(), ChooseFloorPlan.this.getPackageName());
 
             }
         }).start();
@@ -126,12 +124,12 @@ class SingleRow implements Serializable {
     }
 }
 
-class  MyAdapter extends BaseAdapter{
+class FloorPlanChooserAdapter extends BaseAdapter{
 
     private final Context context;
     ArrayList<SingleRow> rows = new ArrayList<SingleRow>();
 
-    MyAdapter(Context context){
+    FloorPlanChooserAdapter(Context context){
         this.context = context;
         Resources resources = context.getResources();
         String[] titles = resources.getStringArray(R.array.titles);

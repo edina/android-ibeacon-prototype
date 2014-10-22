@@ -1,6 +1,8 @@
 package uk.ac.edina.ibeacon.geofence;
 
 import uk.ac.edina.ibeacon.geofence.actions.GeoFenceAction;
+import uk.ac.edina.ibeacon.geofence.distancecalc.DefaultDistanceCalculator;
+import uk.ac.edina.ibeacon.geofence.distancecalc.DistanceCalculator;
 import uk.ac.edina.ibeacon.geofence.states.BeaconGeoFenceState;
 import uk.ac.edina.ibeacon.geofence.states.GeoFenceInsideState;
 import uk.ac.edina.ibeacon.geofence.states.GeoFenceOutsideState;
@@ -14,6 +16,8 @@ public class BeaconGeoFence  {
     private double radius;
     private String minorId;
 
+    private DistanceCalculator distanceCalculator;
+
 
     private BeaconGeoFenceState currentState;
 
@@ -22,8 +26,17 @@ public class BeaconGeoFence  {
 
 
     public BeaconGeoFence(double radius, String minorId, GeoFenceAction geoFenceAction) {
-        if(minorId == null || minorId.isEmpty() || radius < 0){
+        this(radius,minorId,geoFenceAction, new DefaultDistanceCalculator());
+
+
+    }
+
+    public BeaconGeoFence(double radius, String minorId, GeoFenceAction geoFenceAction, DistanceCalculator distanceCalculator){
+        if(minorId == null || minorId.isEmpty() ){
             throw new IllegalArgumentException("Beacon minorId required");
+        }
+        if(radius < 0 ){
+            throw new IllegalArgumentException("Radius must be > 0");
         }
         this.radius = radius;
         this.minorId = minorId;
@@ -31,12 +44,15 @@ public class BeaconGeoFence  {
         this.outsideGeoFence = new GeoFenceOutsideState(this);
         this.insideGeoFence = new GeoFenceInsideState(this);
         this.currentState = outsideGeoFence;
+        this.distanceCalculator = distanceCalculator;
     }
 
 
-    public void evaluateGeofence(String id, double distance) {
+    public void evaluateGeofence(IBeacon beacon) {
 
-        currentState.evaluateGeofence(id, distance);
+        double distance = distanceCalculator.getDistance(beacon);
+
+        currentState.evaluateGeofence(beacon.getMinorId(), distance);
     }
 
     public void setCurrentState(BeaconGeoFenceState currentState) {
