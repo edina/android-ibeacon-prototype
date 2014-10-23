@@ -10,10 +10,8 @@ public class BasicDistanceCalculator implements DistanceCalculator {
 
     /**
      * http://stackoverflow.com/questions/20416218/understanding-ibeacon-distancing/20434019#20434019
-     * The iBeacon output power is measured (calibrated) at a distance of 1 meter. Let's suppose that this is -59 dBm (just an example). The iBeacon will include this number as part of its LE advertisment.
-
-     The listening device (iPhone, etc), will measure the RSSI of the device. Let's suppose, for example, that this is, say, -72 dBm.
-
+     * The iBeacon output power is measured (calibrated) at a distance of 1 meter.
+ 
      Since these numbers are in dBm, the ratio of the power is actually the difference in dB. So:
 
      ratio_dB = txCalibratedPower - RSSI
@@ -35,9 +33,9 @@ public class BasicDistanceCalculator implements DistanceCalculator {
         double rssi = beacon.getRssi();
 
         double ratioDb = txCalibratedPower - rssi;
-        double ratio_linear = Math.pow(10, ratioDb / 10);
+        double ratioLinear = Math.pow(10, ratioDb / 10);
 
-        double r = Math.sqrt(ratio_linear);
+        double r = Math.sqrt(ratioLinear);
         return r;
     }
 
