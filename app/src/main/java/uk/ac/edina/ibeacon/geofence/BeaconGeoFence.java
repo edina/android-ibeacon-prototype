@@ -1,7 +1,7 @@
 package uk.ac.edina.ibeacon.geofence;
 
 import uk.ac.edina.ibeacon.geofence.actions.GeoFenceAction;
-import uk.ac.edina.ibeacon.geofence.distancecalc.BasicDistanceCalculator;
+import uk.ac.edina.ibeacon.geofence.distancecalc.DefaultDistanceCalculator;
 import uk.ac.edina.ibeacon.geofence.distancecalc.DistanceCalculator;
 import uk.ac.edina.ibeacon.geofence.states.BeaconGeoFenceState;
 import uk.ac.edina.ibeacon.geofence.states.GeoFenceInsideState;
@@ -26,7 +26,7 @@ public class BeaconGeoFence  {
 
 
     public BeaconGeoFence(double radius, String minorId, GeoFenceAction geoFenceAction) {
-        this(radius,minorId,geoFenceAction, new BasicDistanceCalculator());
+        this(radius,minorId,geoFenceAction, new DefaultDistanceCalculator());
 
 
     }

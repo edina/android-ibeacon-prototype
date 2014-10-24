@@ -5,8 +5,6 @@
       <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.0-beta7/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES>
-      <root url="file://$USER_HOME$/altbeacon/android-beacon-library/src/main/java" />
-    </SOURCES>
+    <SOURCES />
   </library>
 </component>

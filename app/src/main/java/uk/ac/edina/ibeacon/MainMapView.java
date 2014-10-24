@@ -52,7 +52,7 @@ public class MainMapView extends Activity  implements BeaconConsumer {
     protected static final String TAG = "RangingActivity";
     public static final String BEACON_LAYOUT_FOR_ESTIMOTE = "m:0-3=4c000215,i:4-19,i:20-21,i:22-23,p:24-24";
     private BeaconManager beaconManager = BeaconManager.getInstanceForApplication(this);
-    private boolean matched = false;
+
     TextView distanceFromBeacon;
 
     KmlDocument kmlDocument;
@@ -221,7 +221,7 @@ public class MainMapView extends Activity  implements BeaconConsumer {
 
         // Set the MainMapView as the root View for this Activity; done!
         setContentView(relativeLayout);
-        mapView.getController().setZoom(15); //set initial zoom-level, depends on your need
+        mapView.getController().setZoom(19); //set initial zoom-level, depends on your need
 
 
         final ViewTreeObserver vto = mapView.getViewTreeObserver();
